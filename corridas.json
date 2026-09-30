@@ -1,5 +1,15 @@
 [
  {
+  "corrida": "20260930-1118-polo-verde-pana",
+  "marca_id": "isabella-importa",
+  "marca": "Isabella Importa",
+  "producto": "Polo verde de piqué",
+  "semana": "2026-10-05",
+  "piezas": 4,
+  "ruta": "corridas/isabella-importa/20260930-1118-polo-verde-pana/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-0745-polo-rayas",
   "marca": "Le Femme Boutique Surco",
   "producto": "Camiseta polo rayada",

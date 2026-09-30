@@ -21,7 +21,15 @@
  "llamada_a_la_accion": "Escríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad",
  "enlace": "",
  "modelo": "sofia",
- "productos": [],
+ "productos": [
+  {
+   "id": "polo-verde-pana",
+   "nombre": "Polo verde de piqué",
+   "descripcion": "Prenda tipo polo en tono verde oscuro con cuello camisero, tapeta frontal con botones y mangas cortas. La tela presenta un tejido acanalado en relieve, bajo recto y un pequeño bordado en el pecho; se muestra colgada de una percha con etiquetas.",
+   "modelo": "diego",
+   "foto": "productos/polo-verde-pana.jpg"
+  }
+ ],
  "testimonios": [],
  "hashtags_base": [
   "#IsabellaImporta",
@@ -44,5 +52,5 @@
  },
  "notas": "Negocio de prueba (página de Facebook inactiva). Datos dados por el usuario: importa ropa de Estados Unidos para hombre y mujer. SUPUESTOS a confirmar: venta en Perú por redes y WhatsApp, público y edades, tipos de prenda. Sin precios, envíos ni garantía de originalidad hasta que se confirmen: el texto no puede afirmarlos. Ropa de hombre: falta generar la modelo sintética diego (generar.py modelo diego); mientras, las piezas de hombre van sin modelo (producto en percha, maniquí o flat lay).",
  "id": "isabella-importa",
- "_version": "2026-09-30T10:13"
+ "_version": "2026-09-30T10:56"
 }

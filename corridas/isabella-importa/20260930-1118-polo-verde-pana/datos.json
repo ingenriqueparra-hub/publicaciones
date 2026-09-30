@@ -1,0 +1,89 @@
+{
+ "corrida": "20260930-1118-polo-verde-pana",
+ "marca": "Isabella Importa",
+ "marca_id": "isabella-importa",
+ "semana": "2026-10-05",
+ "creada": "2026-09-30 11:18",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Polo verde de piqué",
+  "descripcion": "Prenda tipo polo en tono verde oscuro con cuello camisero, tapeta frontal con botones y mangas cortas. La tela presenta un tejido acanalado en relieve, bajo recto y un pequeño bordado en el pecho; se muestra colgada de una percha con etiquetas.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-05",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "carrusel",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg",
+    "img/p1_2.jpg",
+    "img/p1_3.jpg",
+    "img/p1_4.jpg"
+   ],
+   "texto": "El polo verde que no ves en cualquier tienda de Lima\n\nEs un polo de piqué en tono verde oscuro, con cuello camisero, tapeta con botones y mangas cortas. La tela tiene un tejido acanalado en relieve y el bajo es recto. Se ve distinto a lo que suele haber en las tiendas de aquí. Si te gusta, te contamos lo que necesites antes de que lo pidas.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #PolosHombre #ModaMasculinaPeru #EstiloAmericano #RopaAmericanaLima #LimaModaHombre #PolosImportados #CompraPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Validación automática, imagen 2 (5/5): no pasa",
+    "Validación automática, imagen 3 (5/5): no pasa"
+   ],
+   "movimiento": ""
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-07",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg"
+   ],
+   "texto": "Las tallas de Estados Unidos no son las de aquí\n\nEs normal dudar: una talla de Estados Unidos no se mide igual que una de Perú. Por eso, antes de pedir, te ayudamos a elegir la tuya. Solo tienes que escribirnos y contarnos qué necesitas. Así evitas pedir una prenda que después no te quede.\n\nEscríbenos por WhatsApp o mensaje directo y te ayudamos con la talla.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #TallasDeUSA #GuiaDeTallas #ModaMasculinaLima #RopaCasualHombre #CompraPorRedes #ModaPeruana #AsesoriaDeTalla\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-09",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "reel",
+   "pilar": "estilo",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "Viernes por la noche: un polo verde y sales\n\nPara salir con amigos o con tu pareja no necesitas complicarte. Este polo verde de piqué con cuello camisero queda bien con jeans y con pantalón de tela. Es ropa casual de estilo americano, de las que no se ven en todos lados. Y si dudas con la talla, te ayudamos por mensaje.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #LookDeViernes #ModaHombreLima #RopaCasualPeru #EstiloUrbanoHombre #SalidaDeViernes #PoloVerde #RopaDeUSAHombre\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "The product turns slowly on the invisible mannequin, fabric swaying gently"
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-10",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "oferta",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "Antes de comprar, consúltanos talla y disponibilidad\n\nSi te gustó este polo verde de piqué, escríbenos y te respondemos tus dudas. Te decimos qué talla te puede quedar mejor y si está disponible. También sirve si buscas un regalo de ropa para tu pareja o un familiar. Sin apuros: primero consultas y luego decides.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #RegaloParaHombre #RegalosDeRopa #ModaMasculinaLima #PolosImportados #RopaCasualHombre #ConsultaPorWhatsApp #ModaAmericanaPeru\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  }
+ ]
+}
