@@ -15,6 +15,8 @@
   const NOMBRE = { generado: "Por revisar", aprobado: "Aprobado", exportado: "Aprobado", rehacer: "Regenerando",
     denegado: "Denegado", programado: "Programado", publicado: "Publicado", planificado: "Planificado" };
   const FORMATO = { foto: "Post 4:5", carrusel: "Carrusel", reel: "Reel 9:16", story: "Story 9:16" };
+  const CREATIVO = { lifestyle: "lifestyle", creador_lowfi: "creador low-fi", titular: "titular", beneficios: "beneficios",
+    infografia: "infografía", testimonio: "testimonio" };
   const guardado = (clave) => { try { return JSON.parse(localStorage.getItem(clave) || "{}"); } catch { return {}; } };
   const guardar = (clave, v) => { try { localStorage.setItem(clave, JSON.stringify(v)); } catch { /* sin almacenamiento */ } };
 
@@ -49,6 +51,8 @@
               ? h("span", { class: "modelos" }, d.modelos.map((m) => h("span", { class: "modelo" }, h("img", { src: m.foto, alt: "" }), h("span", {}, h("b", {}, m.id), " · " + m.desc))))
               : (d.modelo || "—")], ["Texto", d.modelo_texto], ["Imagen", d.modelo_imagen],
             ["Corrida", d.creada], ["Redes", d.redes.join(", ")],
+            ...(d.consejo ? [["Decidió", `el consejo: ${d.consejo.autores.join(", ")} (${d.consejo.fragmentos} fragmentos)`],
+              ["Grandes ideas", d.consejo.grandes_ideas.join(" · ") || "—", "ancho"]] : [["Decidió", "sin consejo"]]),
             ...(d.producto?.descripcion ? [["Descripción del producto", d.producto.descripcion, "ancho"]] : [])]
             .map(([k, v, c]) => h("div", { class: c }, h("dt", {}, k), h("dd", {}, v && v.nodeType ? v : String(v)))))));
 
@@ -89,10 +93,19 @@
         h("div", { class: "cab" }, h("span", { class: "id" }, p.id),
           h("span", { class: "cuando" }, `${p.dia} ${fecha(p.fecha)} · ${p.hora}`),
           h("span", { class: `estado ${est}` }, NOMBRE[est] || est)),
-        h("div", { class: "etq" }, h("span", {}, FORMATO[p.formato] || p.formato), h("span", {}, p.pilar.replace("_", " ")),
-          n > 1 ? h("span", {}, `${n} imágenes`) : null),
+        h("div", { class: "etq" }, h("span", {}, FORMATO[p.formato] || p.formato), h("span", {}, (p.pilar || "").replace("_", " ")),
+          [...new Set(p.formatos || [])].map((x) => h("span", { class: "creativo" }, CREATIVO[x] || x))),
         h("div", { class: `media ${p.formato}` }, pista, cont),
         texto, mas,
+        p.consejo ? h("details", { class: "porque" },
+          h("summary", {}, "Por qué esta pieza", h("span", {}, p.consejo.gran_idea ? " · " + p.consejo.gran_idea : "")),
+          h("dl", {},
+            h("dt", {}, "Objetivo"), h("dd", {}, `${p.consejo.objetivo} · ${p.consejo.conciencia}`),
+            h("dt", {}, "Para"), h("dd", {}, p.consejo.persona),
+            h("dt", {}, "Objeción"), h("dd", {}, p.consejo.objecion)),
+          h("ul", {}, p.consejo.criterio.map((c) => h("li", {}, c.idea, " ",
+            c.autor ? h("a", { href: c.url, target: "_blank", rel: "noopener" }, `— ${c.autor}, «${c.titulo}», ${c.t}`)
+              : h("span", { class: "sin" }, "— no sale del consejo"))))) : null,
         (p.avisos.length || p.movimiento || prog) ? h("div", { class: "avisos" },
           p.avisos.map((a) => h("p", {}, "⚠ " + a)),
           p.movimiento ? h("p", { class: "info" }, "Movimiento del reel: " + p.movimiento) : null,

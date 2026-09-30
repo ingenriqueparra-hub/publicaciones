@@ -1,0 +1,238 @@
+{
+ "corrida": "20260930-1327-polo-verde-pana",
+ "marca": "Isabella Importa",
+ "marca_id": "isabella-importa",
+ "semana": "2026-10-12",
+ "creada": "2026-09-30 13:27",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelos": [
+  {
+   "id": "diego",
+   "desc": "Latino joven, 25 años, degradado a los lados, barba corta, look urbano (moda masculina)",
+   "foto": "../../../modelos/diego.jpg"
+  }
+ ],
+ "modelo": "Latino joven, 25 años, degradado a los lados, barba corta, look urbano (moda masculina)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Polo de pana verde",
+  "descripcion": "Polo de manga corta en verde oscuro, de pana (tejido acanalado con textura aterciopelada), cuello camisero de punto, tapeta con dos botones y un pequeño logo bordado en el pecho.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-12",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg"
+   ],
+   "texto": "Un verde de pana que no ves en todas las tiendas.\n\nEl polo es de manga corta, en pana verde oscuro: un tejido acanalado con textura aterciopelada. Tiene cuello camisero de punto y tapeta con dos botones. Combina con jeans oscuros y también con un chino claro. Si dudas con la talla, te ayudamos antes de que pidas.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #PolosDePana #ModaMasculinaPeru #EstiloUrbanoLima #PolosImportados #ModaHombreLima #ImportadasLima #ComprasPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "Un polo de pana verde oscuro: la textura que no ves en las tiendas de siempre.",
+    "objetivo": "producto",
+    "persona": "Hombre de 25 a 40 años en Lima que quiere ropa de estilo americano y no la encuentra en las tiendas de su barrio.",
+    "objecion": "Busca prendas que no se ven en todas las tiendas ni en todos lados (supuesta).",
+    "conciencia": "consciente del producto",
+    "criterio": [
+     {
+      "idea": "Una pieza hace un solo trabajo: esta foto muestra el polo de pana y nada más.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "2:12",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=132s"
+     },
+     {
+      "idea": "En ropa conviene partir de un deseo humano (verse distinto) y no del nivel de conciencia.",
+      "autor": "Dara Denney",
+      "titulo": "How to Make Winning Facebook Ad Creative",
+      "t": "3:47",
+      "url": "https://www.youtube.com/watch?v=gtynGxXHxVo&t=227s"
+     },
+     {
+      "idea": "La prenda se describe con hechos concretos (pana, cuello camisero de punto), no con superlativos.",
+      "autor": "Dara Denney",
+      "titulo": "The 5 Most Important Ogilvy Ads for Meta Advertisers",
+      "t": "1:54",
+      "url": "https://www.youtube.com/watch?v=si9prxsJIE0&t=114s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-14",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "carrusel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg",
+    "img/p2_2.jpg",
+    "img/p2_3.jpg",
+    "img/p2_4.jpg"
+   ],
+   "texto": "¿No sabes qué talla pedir? Te guiamos paso a paso.\n\nLas tallas de Estados Unidos no son iguales a las de aquí, por eso conviene medir antes de pedir. Con una cinta mide tu pecho y compara el resultado con un polo que ya te quede bien. Con esas dos referencias te decimos qué talla te corresponde. No tienes que viajar ni gestionar un envío internacional por tu cuenta.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #GuiaDeTallas #TallasAmericanas #ModaMasculinaPeru #RegalosParaHombre #ImportadasLima #ModaHombreLima #PolosDePana\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular",
+    "infografia",
+    "beneficios",
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "Comprar sin viajar es más fácil si ves la prenda tal cual y te ayudamos con la talla.",
+    "objetivo": "educar",
+    "persona": "Persona de 25 a 40 años que va a pedir ropa por redes y no sabe qué talla de Estados Unidos le corresponde.",
+    "objecion": "No sabe qué talla pedir porque las tallas de Estados Unidos no son iguales a las de aquí (supuesta).",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "La infografía educa y se siente como contenido orgánico, no como anuncio.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "10:18",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=618s"
+     },
+     {
+      "idea": "El gancho de titular hace la pregunta que el cliente ya se está haciendo para que sea más fácil decir que sí.",
+      "autor": "Dara Denney",
+      "titulo": "9 Meta Ad Hooks That Are Printing $$$ Right Now (45%+ Hook Rates)",
+      "t": "2:06",
+      "url": "https://www.youtube.com/watch?v=I8tXqqfjIX4&t=126s"
+     },
+     {
+      "idea": "La objeción se responde con las palabras exactas del cliente: talla.",
+      "autor": "Dara Denney",
+      "titulo": "This Is Dead Simple, But Converts Like Crazy on Meta Ads",
+      "t": "8:08",
+      "url": "https://www.youtube.com/watch?v=kxLjzws-pNg&t=488s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-16",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "reel",
+   "pilar": "inspirar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "El verde de pana que se ve distinto en la calle.\n\nEl polo es de pana, así que la textura se nota incluso a un metro de distancia. Manga corta con cuello camisero de punto: se ve arreglado sin ser formal. Queda bien con jeans oscuros o con un chino claro. Y si te queda la duda de la talla, la resolvemos antes de que pidas.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #PolosDePana #EstiloMasculinoLima #OutfitDeViernes #ModaUrbanaPeru #ImportadasLima #PolosImportados #ModaHombreLima\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "He walks a few steps toward the camera and turns slightly so the fabric of the polo catches the light.",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "Un polo de pana verde oscuro: la textura que no ves en las tiendas de siempre.",
+    "objetivo": "inspirar",
+    "persona": "Hombre de 25 a 40 años que sale el fin de semana y quiere verse distinto sin viajar a Estados Unidos.",
+    "objecion": "Quiere ropa de estilo o marcas de Estados Unidos sin viajar ni pagar un courier por su cuenta (supuesta).",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Una misma gran idea tiene que aparecer en varios formatos para que el cliente la recuerde.",
+      "autor": "Dara Denney",
+      "titulo": "The Easiest Way To Make Winning Meta Ads (in 2026)",
+      "t": "8:44",
+      "url": "https://www.youtube.com/watch?v=p4yXXdnCgWg&t=524s"
+     },
+     {
+      "idea": "En ropa funciona mejor mostrar un momento real de uso que una ficha de producto.",
+      "autor": "Dara Denney",
+      "titulo": "How to Make Winning Facebook Ad Creative",
+      "t": "3:47",
+      "url": "https://www.youtube.com/watch?v=gtynGxXHxVo&t=227s"
+     },
+     {
+      "idea": "El reel se piensa vertical, con edición rápida y sin depender del sonido.",
+      "autor": "Dara Denney",
+      "titulo": "The #1 Strategy for Paid Social on Black Friday 2020 (BFCM Shopify eCommerce)",
+      "t": "8:07",
+      "url": "https://www.youtube.com/watch?v=-08Jnym_5Ao&t=487s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-17",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "objecion",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "¿Será igual a la foto? Mírala de cerca antes de pagar.\n\nLa foto que ves es la prenda: pana verde oscuro, manga corta y cuello camisero de punto. Si quieres verla mejor, te mostramos la tela y el cuello por WhatsApp antes de que decidas. También te ayudamos con la talla para que no te equivoques al regalar.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #PolosDePana #ComprarPorRedesLima #ModaMasculinaLima #RegalosParaHombre #RopaEstiloAmericano #DetallesDeLaPrenda #LimaModa\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular"
+   ],
+   "consejo": {
+    "gran_idea": "Comprar sin viajar es más fácil si ves la prenda tal cual y te ayudamos con la talla.",
+    "objetivo": "objecion",
+    "persona": "Mujer de 28 a 40 años que quiere regalarle ropa a su pareja o a su hermano y duda antes de pagar por redes.",
+    "objecion": "Desconfía de comprar ropa importada por redes: ¿llega igual que en la foto? (supuesta)",
+    "conciencia": "consciente del producto",
+    "criterio": [
+     {
+      "idea": "La pieza responde directo a la objeción principal con la foto real de la prenda y sin promesas.",
+      "autor": "Dara Denney",
+      "titulo": "4 Consumer Psychology Tricks to Explode Your Facebook Ads",
+      "t": "0:00",
+      "url": "https://www.youtube.com/watch?v=x0pJ484ZO1o&t=0s"
+     },
+     {
+      "idea": "Conviene usar las palabras exactas del cliente alrededor de la objeción.",
+      "autor": "Dara Denney",
+      "titulo": "This Is Dead Simple, But Converts Like Crazy on Meta Ads",
+      "t": "8:08",
+      "url": "https://www.youtube.com/watch?v=kxLjzws-pNg&t=488s"
+     },
+     {
+      "idea": "El titular hace un solo trabajo: resolver la duda de la foto.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "2:12",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=132s"
+     }
+    ]
+   }
+  }
+ ],
+ "consejo": {
+  "autores": [
+   "Dara Denney"
+  ],
+  "fragmentos": 40,
+  "grandes_ideas": [
+   "Un polo de pana verde oscuro: la textura que no ves en las tiendas de siempre.",
+   "Comprar sin viajar es más fácil si ves la prenda tal cual y te ayudamos con la talla."
+  ]
+ }
+}

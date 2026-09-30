@@ -44,6 +44,7 @@
     ["Público y voz", [
       { k: "publico", t: "area", l: "Público objetivo", ancho: true },
       { k: "problemas_del_publico", t: "lista", l: "Problemas o deseos del público", ayuda: "Uno por línea. Cada publicación parte de uno de estos.", ancho: true },
+      { k: "voz_del_cliente", t: "lista", l: "Voz del cliente (frases reales)", ayuda: "Copia literal de reseñas, comentarios o mensajes: objeciones y elogios. El consejo saca los ángulos de aquí; sin esto, las objeciones son supuestas.", ancho: true },
       { k: "tono", t: "area", l: "Tono", ancho: true },
       { k: "tratamiento", t: "select", l: "Tratamiento", ops: [["tú", "tú"], ["usted", "usted"], ["ustedes", "ustedes"]] },
       { k: "idioma", t: "texto", l: "Idioma" }]],

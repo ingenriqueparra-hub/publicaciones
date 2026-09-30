@@ -1,5 +1,19 @@
 [
  {
+  "corrida": "20260930-1327-polo-verde-pana",
+  "marca_id": "isabella-importa",
+  "marca": "Isabella Importa",
+  "producto": "Polo de pana verde",
+  "semana": "2026-10-12",
+  "creada": "2026-09-30 13:27",
+  "modelos": [
+   "diego"
+  ],
+  "piezas": 4,
+  "ruta": "corridas/isabella-importa/20260930-1327-polo-verde-pana/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-1138-polo-verde-pana",
   "marca_id": "isabella-importa",
   "marca": "Isabella Importa",
