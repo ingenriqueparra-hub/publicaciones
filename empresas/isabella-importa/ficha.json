@@ -2,22 +2,33 @@
  "nombre": "Isabella Importa",
  "pagina_facebook": "Isabella Importa",
  "estado": "borrador",
- "rubro": "",
- "publico": "",
- "problemas_del_publico": [],
- "tono": "",
+ "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
+ "publico": "Hombres y mujeres de 22 a 45 años en Perú que buscan ropa de estilo americano, distinta a la de las tiendas locales, y que compran por redes sin viajar ni gestionar un envío internacional por su cuenta",
+ "problemas_del_publico": [
+  "Quiere ropa de estilo o marcas de Estados Unidos sin viajar ni pagar un courier por su cuenta",
+  "No sabe qué talla pedir porque las tallas de Estados Unidos no son iguales a las de aquí",
+  "Desconfía de comprar ropa importada por redes: ¿llega igual que en la foto?",
+  "Busca prendas que no se ven en todas las tiendas ni en todos lados",
+  "Necesita un regalo de ropa para su pareja o un familiar, hombre o mujer"
+ ],
+ "tono": "Cercano, claro y confiable. Explica sin rodeos (tallas, cómo pedir). Frases cortas. Nada de urgencias falsas ni promesas que no estén en la ficha",
  "tratamiento": "tú",
  "idioma": "español de Perú",
  "redes": [
   "facebook",
   "instagram"
  ],
- "llamada_a_la_accion": "",
+ "llamada_a_la_accion": "Escríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad",
  "enlace": "",
- "modelo": "",
+ "modelo": "sofia",
  "productos": [],
  "testimonios": [],
- "hashtags_base": [],
+ "hashtags_base": [
+  "#IsabellaImporta",
+  "#RopaImportada",
+  "#RopaDeUSA",
+  "#ModaPeru"
+ ],
  "declaracion_ia": "📸 Imagen creada con IA.",
  "frecuencia": {
   "posts_semana": 4,
@@ -31,7 +42,7 @@
    "19:30"
   ]
  },
- "notas": "Negocio de prueba (página de Facebook inactiva). Ficha por completar.",
+ "notas": "Negocio de prueba (página de Facebook inactiva). Datos dados por el usuario: importa ropa de Estados Unidos para hombre y mujer. SUPUESTOS a confirmar: venta en Perú por redes y WhatsApp, público y edades, tipos de prenda. Sin precios, envíos ni garantía de originalidad hasta que se confirmen: el texto no puede afirmarlos. Ropa de hombre: falta generar la modelo sintética diego (generar.py modelo diego); mientras, las piezas de hombre van sin modelo (producto en percha, maniquí o flat lay).",
  "id": "isabella-importa",
- "_version": "2026-09-30T09:43"
+ "_version": "2026-09-30T10:13"
 }
