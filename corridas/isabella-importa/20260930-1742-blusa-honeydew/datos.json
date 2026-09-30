@@ -1,0 +1,231 @@
+{
+ "corrida": "20260930-1742-blusa-honeydew",
+ "marca": "Isabella Importa",
+ "marca_id": "isabella-importa",
+ "semana": "2026-10-19",
+ "creada": "2026-09-30 17:42",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelos": [
+  {
+   "id": "sofia",
+   "desc": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+   "foto": "../../../modelos/sofia.jpg"
+  }
+ ],
+ "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Blusa corta texturizada blanca",
+  "descripcion": "Blusa de color blanco hueso con tejido de aspecto rizado y abultado, cuello redondo y mangas cortas. Presenta un corte corto y amplio tipo caja, con un pequeño detalle de botón forrado en el borde lateral.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-19",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg"
+   ],
+   "texto": "La blusa de tejido rizado que no ves en tiendas de aquí.\n\nEs blanca hueso, de tejido con textura rizada y abultada. Tiene cuello redondo, mangas cortas y un corte corto y amplio tipo caja. En el borde lateral lleva un pequeño botón forrado. Escríbenos y te contamos cómo pedirla.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ModaLima #BlusaBlanca #RopaDeMujer #ModaFemeninaPeru #EstiloAmericano #RopaCasualLima #ComprasPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular"
+   ],
+   "consejo": {
+    "gran_idea": "El blanco texturizado que no ves en las tiendas de aquí",
+    "objetivo": "producto",
+    "persona": "Mujer de 26 a 35 años en Lima que compra ropa por redes y duda si la prenda llegará como en la foto",
+    "objecion": "¿Llega igual que en la foto? (supuesta)",
+    "conciencia": "consciente del producto",
+    "criterio": [
+     {
+      "idea": "Ser específico vende más que el superlativo: nombrar el color, el tejido y el corte en vez de decir 'bonita'.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "6:09",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=369s"
+     },
+     {
+      "idea": "La especificidad y los hechos concretos superan a las generalidades en el titular.",
+      "autor": "Dara Denney",
+      "titulo": "The Top Performing Creative on Meta Ads",
+      "t": "4:06",
+      "url": "https://www.youtube.com/watch?v=Zp9pOYAFL30&t=246s"
+     },
+     {
+      "idea": "Cada pieza tiene una sola gran idea y un solo trabajo, no dos.",
+      "autor": "Dara Denney",
+      "titulo": "The Easiest Way To Make Winning Meta Ads (in 2026)",
+      "t": "1:48",
+      "url": "https://www.youtube.com/watch?v=p4yXXdnCgWg&t=108s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-21",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "inspirar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg"
+   ],
+   "texto": "Ropa de Estados Unidos sin courier ni trámites.\n\nVestirse distinto no tiene que ser complicado. Nosotros importamos la prenda y tú la pides por redes. Antes de confirmar, te ayudamos a elegir la talla.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ModaMiraflores #RopaImportadaLima #EstiloAmericanoPeru #ModaDeMujer #LookDeFinde #CasualChic #LimaEstilo\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "El blanco texturizado que no ves en las tiendas de aquí",
+    "objetivo": "inspirar",
+    "persona": "Mujer de 22 a 30 años en Lima que quiere ropa de estilo americano sin encargar un courier por su cuenta",
+    "objecion": "Quiere ropa de estilo o marcas de Estados Unidos sin viajar ni pagar un courier por su cuenta (supuesta)",
+    "conciencia": "inconsciente",
+    "criterio": [
+     {
+      "idea": "Los formatos de imagen tipo mood board funcionan muy bien para apparel y se consumen como contenido, no como anuncio.",
+      "autor": "Dara Denney",
+      "titulo": "I Ranked 51 Meta Ad Creative Types (Tier List)",
+      "t": "20:23",
+      "url": "https://www.youtube.com/watch?v=KmbEjy0UBT8&t=1223s"
+     },
+     {
+      "idea": "El contenido que despierta curiosidad en alguien que aún no busca la prenda llega a la audiencia más amplia.",
+      "autor": "Dara Denney",
+      "titulo": "How to Build Scalable Ad Creatives with Just 2 Tweaks",
+      "t": "8:10",
+      "url": "https://www.youtube.com/watch?v=hSy6X065x0g&t=490s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-23",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "carrusel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg",
+    "img/p3_2.jpg",
+    "img/p3_3.jpg",
+    "img/p3_4.jpg"
+   ],
+   "texto": "Mide una blusa tuya: la etiqueta engaña.\n\nLas tallas de Estados Unidos no son iguales a las de aquí, así que la etiqueta no ayuda mucho. Lo más simple es medir una prenda que ya te quede bien. Anota el ancho del pecho y el largo total, y compártelo con nosotros. Con eso te decimos qué talla pedir.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ComoElegirTalla #GuiaDeTallas #TallasDeRopa #RopaImportadaPeru #BlusaBlanca #ModaFemeninaPeru #ComprarPorRedes #ModaLima\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular",
+    "infografia",
+    "beneficios",
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "Elige tu talla midiendo una blusa tuya, no la etiqueta",
+    "objetivo": "educar",
+    "persona": "Mujer de 25 a 40 años que quiere pedir una blusa importada pero no sabe qué talla elegir",
+    "objecion": "No sabe qué talla pedir porque las tallas de Estados Unidos no son iguales a las de aquí (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Responder de frente la objeción que frena la compra, usando las palabras exactas del cliente.",
+      "autor": "Dara Denney",
+      "titulo": "4 Consumer Psychology Tricks to Explode Your Facebook Ads",
+      "t": "0:00",
+      "url": "https://www.youtube.com/watch?v=x0pJ484ZO1o&t=0s"
+     },
+     {
+      "idea": "Usar la frase textual del cliente alrededor de la objeción concreta.",
+      "autor": "Dara Denney",
+      "titulo": "This Is Dead Simple, But Converts Like Crazy on Meta Ads",
+      "t": "8:08",
+      "url": "https://www.youtube.com/watch?v=kxLjzws-pNg&t=488s"
+     },
+     {
+      "idea": "Las infografías educativas funcionan arriba del embudo porque no parecen anuncio y aportan valor.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "10:18",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=618s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-24",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "reel",
+   "pilar": "inspirar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "Una blusa blanca que no se parece a las de siempre.\n\nEl tejido rizado y el corte corto tipo caja le dan otro aire a un jean simple. Se lleva suelta, sin arreglos. Cuéntanos qué talla usas y te ayudamos a elegir.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ModaDistinta #BlusaTexturizada #RopaDeMujerLima #EstiloPropio #ModaAmericana #OutfitDelDia #ComprasPorInstagram\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "She turns slowly toward the camera and adjusts the hem with one hand, the textured fabric moving with her, about 7 seconds.",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "El blanco texturizado que no ves en las tiendas de aquí",
+    "objetivo": "inspirar",
+    "persona": "Mujer de 24 a 38 años que quiere una prenda que no vea en todas las tiendas",
+    "objecion": "Busca prendas que no se ven en todas las tiendas ni en todos lados (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Llevar una gran idea que ya funciona a otro formato con más resonancia emocional.",
+      "autor": "Dara Denney",
+      "titulo": "The Easiest Way To Make Winning Meta Ads (in 2026)",
+      "t": "6:34",
+      "url": "https://www.youtube.com/watch?v=p4yXXdnCgWg&t=394s"
+     },
+     {
+      "idea": "La misma gran idea debe aparecer en varios formatos para que el público la vea más de una vez.",
+      "autor": "Dara Denney",
+      "titulo": "The Easiest Way To Make Winning Meta Ads (in 2026)",
+      "t": "8:44",
+      "url": "https://www.youtube.com/watch?v=p4yXXdnCgWg&t=524s"
+     },
+     {
+      "idea": "La variedad de formatos es lo que premia el algoritmo, por eso esta semana conviven statics y video.",
+      "autor": "Dara Denney",
+      "titulo": "The UGC Ad Formula That Converts in 2026",
+      "t": "8:19",
+      "url": "https://www.youtube.com/watch?v=yNTlVKvuX0o&t=499s"
+     }
+    ]
+   }
+  }
+ ],
+ "consejo": {
+  "autores": [
+   "Dara Denney"
+  ],
+  "fragmentos": 41,
+  "grandes_ideas": [
+   "El blanco texturizado que no ves en las tiendas de aquí",
+   "Elige tu talla midiendo una blusa tuya, no la etiqueta"
+  ]
+ }
+}

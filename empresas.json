@@ -6,27 +6,27 @@
  },
  "empresas": [
   {
-   "id": "le-femme",
-   "nombre": "Le Femme Boutique Surco",
+   "id": "isabella-importa",
+   "nombre": "Isabella Importa",
    "estado": "activa",
-   "rubro": "Boutique de ropa femenina en Santiago de Surco, Lima (Perú): vestidos, blusas, jeans, conjuntos casuales y de oficina",
-   "productos": 1,
-   "corridas": 1,
+   "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
+   "productos": 2,
+   "corridas": 4,
    "ultima": {
-    "corrida": "20260930-0745-polo-rayas",
-    "marca": "Le Femme Boutique Surco",
-    "producto": "Camiseta polo rayada",
-    "semana": "2026-10-12",
-    "piezas": 4,
-    "ruta": "corridas/le-femme/20260930-0745-polo-rayas/",
-    "miniatura": "img/p1_1.jpg",
-    "marca_id": "le-femme",
-    "creada": "2026-09-30 07:45",
+    "corrida": "20260930-1742-blusa-honeydew",
+    "marca_id": "isabella-importa",
+    "marca": "Isabella Importa",
+    "producto": "Blusa corta texturizada blanca",
+    "semana": "2026-10-19",
+    "creada": "2026-09-30 17:42",
     "modelos": [
      "sofia"
-    ]
+    ],
+    "piezas": 4,
+    "ruta": "corridas/isabella-importa/20260930-1742-blusa-honeydew/",
+    "miniatura": "img/p1_1.jpg"
    },
-   "miniatura": "empresas/le-femme/productos/polo-rayas.jpg"
+   "miniatura": "empresas/isabella-importa/productos/polo-verde-pana.jpg"
   },
   {
    "id": "agil-peru",
@@ -67,29 +67,6 @@
    "corridas": 0,
    "ultima": null,
    "miniatura": ""
-  },
-  {
-   "id": "isabella-importa",
-   "nombre": "Isabella Importa",
-   "estado": "borrador",
-   "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
-   "productos": 1,
-   "corridas": 3,
-   "ultima": {
-    "corrida": "20260930-1327-polo-verde-pana",
-    "marca_id": "isabella-importa",
-    "marca": "Isabella Importa",
-    "producto": "Polo de pana verde",
-    "semana": "2026-10-12",
-    "creada": "2026-09-30 13:27",
-    "modelos": [
-     "diego"
-    ],
-    "piezas": 4,
-    "ruta": "corridas/isabella-importa/20260930-1327-polo-verde-pana/",
-    "miniatura": "img/p1_1.jpg"
-   },
-   "miniatura": "empresas/isabella-importa/productos/polo-verde-pana.jpg"
   },
   {
    "id": "jobsti",
@@ -140,6 +117,29 @@
    "corridas": 0,
    "ultima": null,
    "miniatura": ""
+  },
+  {
+   "id": "le-femme",
+   "nombre": "Le Femme Boutique Surco",
+   "estado": "pausada",
+   "rubro": "Boutique de ropa femenina en Santiago de Surco, Lima (Perú): vestidos, blusas, jeans, conjuntos casuales y de oficina",
+   "productos": 1,
+   "corridas": 1,
+   "ultima": {
+    "corrida": "20260930-0745-polo-rayas",
+    "marca": "Le Femme Boutique Surco",
+    "producto": "Camiseta polo rayada",
+    "semana": "2026-10-12",
+    "piezas": 4,
+    "ruta": "corridas/le-femme/20260930-0745-polo-rayas/",
+    "miniatura": "img/p1_1.jpg",
+    "marca_id": "le-femme",
+    "creada": "2026-09-30 07:45",
+    "modelos": [
+     "sofia"
+    ]
+   },
+   "miniatura": "empresas/le-femme/productos/polo-rayas.jpg"
   }
  ]
 }

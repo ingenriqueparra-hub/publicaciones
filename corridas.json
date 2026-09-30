@@ -1,5 +1,19 @@
 [
  {
+  "corrida": "20260930-1742-blusa-honeydew",
+  "marca_id": "isabella-importa",
+  "marca": "Isabella Importa",
+  "producto": "Blusa corta texturizada blanca",
+  "semana": "2026-10-19",
+  "creada": "2026-09-30 17:42",
+  "modelos": [
+   "sofia"
+  ],
+  "piezas": 4,
+  "ruta": "corridas/isabella-importa/20260930-1742-blusa-honeydew/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-1327-polo-verde-pana",
   "marca_id": "isabella-importa",
   "marca": "Isabella Importa",

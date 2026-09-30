@@ -1,7 +1,7 @@
 {
  "nombre": "Le Femme Boutique Surco",
  "pagina_facebook": "Le Femme Boutique Surco",
- "estado": "activa",
+ "estado": "pausada",
  "rubro": "Boutique de ropa femenina en Santiago de Surco, Lima (Perú): vestidos, blusas, jeans, conjuntos casuales y de oficina",
  "publico": "Mujeres de 25 a 45 años de Lima (Surco, Miraflores, La Molina, San Borja) que trabajan y buscan verse arregladas sin gastar como en marca de centro comercial",
  "problemas_del_publico": [
@@ -37,18 +37,18 @@
  ],
  "declaracion_ia": "📸 Imagen creada con IA.",
  "frecuencia": {
-  "posts_semana": 4,
-  "mezcla": {
-   "foto": 2,
-   "carrusel": 1,
-   "reel": 1
-  },
   "horas": [
    "12:30",
    "19:30"
-  ]
+  ],
+  "mezcla": {
+   "foto": 2,
+   "reel": 1,
+   "carrusel": 1
+  },
+  "posts_semana": 4
  },
  "notas": "Negocio de prueba (página inactiva). Sin fotos de producto propias: las prendas se describen en el prompt. Sin testimonios reales: no se usa el pilar de prueba social.",
  "id": "le-femme",
- "_version": "2026-09-30T09:43"
+ "_version": "2026-09-30T17:24"
 }

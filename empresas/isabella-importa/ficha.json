@@ -1,7 +1,7 @@
 {
  "nombre": "Isabella Importa",
  "pagina_facebook": "Isabella Importa",
- "estado": "borrador",
+ "estado": "activa",
  "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
  "publico": "Hombres y mujeres de 22 a 45 años en Perú que buscan ropa de estilo americano, distinta a la de las tiendas locales, y que compran por redes sin viajar ni gestionar un envío internacional por su cuenta",
  "problemas_del_publico": [
@@ -24,10 +24,19 @@
  "productos": [
   {
    "id": "polo-verde-pana",
+   "modelo": "diego",
    "nombre": "Polo de pana verde",
    "descripcion": "Polo de manga corta en verde oscuro, de pana (tejido acanalado con textura aterciopelada), cuello camisero de punto, tapeta con dos botones y un pequeño logo bordado en el pecho.",
-   "modelo": "diego",
    "foto": "productos/polo-verde-pana.jpg"
+  },
+  {
+   "id": "blusa-honeydew",
+   "nombre": "Blusa corta texturizada blanca",
+   "descripcion": "Blusa de color blanco hueso con tejido de aspecto rizado y abultado, cuello redondo y mangas cortas. Presenta un corte corto y amplio tipo caja, con un pequeño detalle de botón forrado en el borde lateral.",
+   "precio": "250",
+   "datos": "lana blanca",
+   "modelo": "sofia",
+   "foto": "productos/blusa-honeydew.jpg"
   }
  ],
  "testimonios": [],
@@ -40,18 +49,18 @@
  ],
  "declaracion_ia": "📸 Imagen creada con IA.",
  "frecuencia": {
-  "posts_semana": 4,
-  "mezcla": {
-   "foto": 2,
-   "carrusel": 1,
-   "reel": 1
-  },
   "horas": [
    "12:30",
    "19:30"
-  ]
+  ],
+  "mezcla": {
+   "foto": 2,
+   "reel": 1,
+   "carrusel": 1
+  },
+  "posts_semana": 4
  },
  "notas": "Negocio de prueba (página de Facebook inactiva). Datos dados por el usuario: importa ropa de Estados Unidos para hombre y mujer. SUPUESTOS a confirmar: venta en Perú por redes y WhatsApp, público y edades, tipos de prenda. Sin precios, envíos ni garantía de originalidad hasta que se confirmen: el texto no puede afirmarlos. Modelos: ropa de mujer con sofia; ropa de hombre con diego o mateo (cada producto indica la suya).",
  "id": "isabella-importa",
- "_version": "2026-09-30T11:19"
+ "_version": "2026-09-30T17:25"
 }
