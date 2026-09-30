@@ -37,6 +37,15 @@
    "datos": "lana blanca",
    "modelo": "sofia",
    "foto": "productos/blusa-honeydew.jpg"
+  },
+  {
+   "id": "polo-marca-polo-raph-lauren",
+   "nombre": "Camiseta amarilla estampada",
+   "descripcion": "Camiseta de manga corta en amarillo intenso, de corte recto y holgado, con cuello redondo y estampado frontal en negro con el texto POLO. Lleva una etiqueta colgante azul oscuro y el tejido se ve liso, tipo punto.",
+   "precio": "300",
+   "datos": "algodón naranja",
+   "modelo": "mateo",
+   "foto": "productos/polo-marca-polo-raph-lauren.jpg"
   }
  ],
  "testimonios": [],
@@ -62,5 +71,5 @@
  },
  "notas": "Negocio de prueba (página de Facebook inactiva). Datos dados por el usuario: importa ropa de Estados Unidos para hombre y mujer. SUPUESTOS a confirmar: venta en Perú por redes y WhatsApp, público y edades, tipos de prenda. Sin precios, envíos ni garantía de originalidad hasta que se confirmen: el texto no puede afirmarlos. Modelos: ropa de mujer con sofia; ropa de hombre con diego o mateo (cada producto indica la suya).",
  "id": "isabella-importa",
- "_version": "2026-09-30T17:25"
+ "_version": "2026-09-30T17:42"
 }

@@ -10,20 +10,20 @@
    "nombre": "Isabella Importa",
    "estado": "activa",
    "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
-   "productos": 2,
-   "corridas": 4,
+   "productos": 3,
+   "corridas": 5,
    "ultima": {
-    "corrida": "20260930-1742-blusa-honeydew",
+    "corrida": "20260930-1816-polo-marca-polo-raph-lauren",
     "marca_id": "isabella-importa",
     "marca": "Isabella Importa",
-    "producto": "Blusa corta texturizada blanca",
-    "semana": "2026-10-19",
-    "creada": "2026-09-30 17:42",
+    "producto": "Camiseta amarilla estampada",
+    "semana": "2026-10-26",
+    "creada": "2026-09-30 18:16",
     "modelos": [
-     "sofia"
+     "mateo"
     ],
     "piezas": 4,
-    "ruta": "corridas/isabella-importa/20260930-1742-blusa-honeydew/",
+    "ruta": "corridas/isabella-importa/20260930-1816-polo-marca-polo-raph-lauren/",
     "miniatura": "img/p1_1.jpg"
    },
    "miniatura": "empresas/isabella-importa/productos/polo-verde-pana.jpg"

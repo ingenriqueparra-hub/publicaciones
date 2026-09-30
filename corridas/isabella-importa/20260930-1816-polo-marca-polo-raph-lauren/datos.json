@@ -1,0 +1,248 @@
+{
+ "corrida": "20260930-1816-polo-marca-polo-raph-lauren",
+ "marca": "Isabella Importa",
+ "marca_id": "isabella-importa",
+ "semana": "2026-10-26",
+ "creada": "2026-09-30 18:16",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelos": [
+  {
+   "id": "mateo",
+   "desc": "Latino joven, 25 años, pelo rizado corto, barba de unos días, cara amable (moda masculina)",
+   "foto": "../../../modelos/mateo.jpg"
+  }
+ ],
+ "modelo": "Latino joven, 25 años, pelo rizado corto, barba de unos días, cara amable (moda masculina)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Camiseta amarilla estampada",
+  "descripcion": "Camiseta de manga corta en amarillo intenso, de corte recto y holgado, con cuello redondo y estampado frontal en negro con el texto POLO. Lleva una etiqueta colgante azul oscuro y el tejido se ve liso, tipo punto.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-26",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "carrusel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg",
+    "img/p1_2.jpg",
+    "img/p1_3.jpg",
+    "img/p1_4.jpg"
+   ],
+   "texto": "¿No sabes qué talla pedir? No es tu culpa.\n\nLas tallas de Estados Unidos no se miden igual que las de aquí. Así que no adivines: mira primero el corte y el tejido de la prenda. Mide tu pecho con una cinta y compara esa medida con una camiseta que ya te quede bien. Con eso claro, pide tu talla sin miedo.\n\nEscríbenos por WhatsApp o mensaje directo y te ayudamos a elegir tu talla.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #CamisetasImportadas #ModaMasculinaPeru #EstiloAmericano #LimaFashion #ModaHombreLima #ComprasPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Validación automática, imagen 1 (5/5): logo o etiqueta en primer plano (el generador los deforma)",
+    "Validación automática, imagen 2 (5/5): logo o etiqueta en primer plano (el generador los deforma)",
+    "Validación automática, imagen 3 (5/5): logo o etiqueta en primer plano (el generador los deforma)",
+    "Validación automática, imagen 4 (5/5): logo o etiqueta en primer plano (el generador los deforma)"
+   ],
+   "movimiento": "",
+   "formatos": [
+    "titular",
+    "infografia",
+    "beneficios",
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "Elige tu talla por el corte y el tejido, no por el número.",
+    "objetivo": "educar",
+    "persona": "Hombre de 28 años en Lima que quiere una camiseta de estilo americano y no sabe qué talla pedir.",
+    "objecion": "No sabe qué talla pedir porque las tallas de Estados Unidos no son iguales a las de aquí (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Antes de vender, resuelve el problema: el contenido educativo se lee como contenido orgánico y no como anuncio.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "10:18",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=618s"
+     },
+     {
+      "idea": "Para responder una objeción hay que usar la frase exacta con la que el cliente la dice.",
+      "autor": "Dara Denney",
+      "titulo": "This Is Dead Simple, But Converts Like Crazy on Meta Ads",
+      "t": "8:08",
+      "url": "https://www.youtube.com/watch?v=kxLjzws-pNg&t=488s"
+     },
+     {
+      "idea": "Nombra a tu público concreto y da pasos claros en vez de hablar en general.",
+      "autor": "Dara Denney",
+      "titulo": "How I Make AI Static Ads (in minutes)",
+      "t": "6:09",
+      "url": "https://www.youtube.com/watch?v=5C5VhqW9HCc&t=369s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-28",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "inspirar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg"
+   ],
+   "texto": "¿Ya viste la misma camiseta en todas las tiendas?\n\nLa camiseta amarilla con estampado frontal no la vas a encontrar en cada esquina. Es de punto liso, con corte recto y holgado. Queda bien con jeans negros para la noche y con un pantalón beige para el día. Estilo americano sin salir de Lima.\n\nEscríbenos por mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #RopaConEstilo #ModaUrbanaLima #CamisetasDePunto #EstiloDeCalle #ComprasPorInstagram #ModaParaHombres\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Validación automática, imagen 1 (5/5): logo o etiqueta en primer plano (el generador los deforma)"
+   ],
+   "movimiento": "",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "Estilo americano en tu día a día, sin viajar a Estados Unidos.",
+    "objetivo": "inspirar",
+    "persona": "Hombre de 34 años en Lima que busca ropa distinta a la de las tiendas de su barrio y compra por redes.",
+    "objecion": "Busca prendas que no se ven en todas las tiendas ni en todos lados (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "El mensaje se construye sobre el deseo del cliente y no sobre su nivel de conciencia.",
+      "autor": "Dara Denney",
+      "titulo": "How to Build Scalable Ad Creatives with Just 2 Tweaks",
+      "t": "10:07",
+      "url": "https://www.youtube.com/watch?v=hSy6X065x0g&t=607s"
+     },
+     {
+      "idea": "En ropa funciona testear visuales de estilo, porque es el contenido que tu público ya consume.",
+      "autor": "Dara Denney",
+      "titulo": "I Ranked 51 Meta Ad Creative Types (Tier List)",
+      "t": "20:23",
+      "url": "https://www.youtube.com/watch?v=KmbEjy0UBT8&t=1223s"
+     },
+     {
+      "idea": "Expandir el deseo y la motivación hace que la pieza se sienta hecha para esa persona.",
+      "autor": "Dara Denney",
+      "titulo": "The 5 Levels of Creative Diversity (most brands miss this)",
+      "t": "6:00",
+      "url": "https://www.youtube.com/watch?v=ZydGeio1DGQ&t=360s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-30",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "reel",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "El punto liso se ve mejor de cerca.\n\nLa prenda es de punto liso, con textura suave y sin brillo. El corte recto y holgado hace que caiga sin apretar. Cuello redondo y mangas cortas. Si quieres ver más detalles antes de decidir, escríbenos.\n\nEscríbenos por WhatsApp para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #DetallesDeLaPrenda #TejidoDePunto #ModaImportadaLima #CamisetaAmarilla #EstiloCasualHombre #ComprasPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Validación automática, imagen 1 (5/5): logo o etiqueta en primer plano (el generador los deforma)",
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "He turns slightly toward the window and smooths the front of the shirt with one hand, the fabric moving softly and naturally.",
+   "formatos": [
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "Estilo americano en tu día a día, sin viajar a Estados Unidos.",
+    "objetivo": "producto",
+    "persona": "Hombre de 26 años en Lima que compara la prenda antes de escribir por WhatsApp.",
+    "objecion": "Quiere ropa de estilo o marcas de Estados Unidos sin viajar ni pagar un courier por su cuenta (supuesta)",
+    "conciencia": "consciente del producto",
+    "criterio": [
+     {
+      "idea": "Los estáticos de bajo esfuerzo sirven para testear mensaje y luego pasarlo a formatos con más movimiento.",
+      "autor": "Dara Denney",
+      "titulo": "I've created 20,000+ ads. Here's what's converting NOW.",
+      "t": "5:52",
+      "url": "https://www.youtube.com/watch?v=ePcEcT2PH8E&t=352s"
+     },
+     {
+      "idea": "Una gran idea necesita aparecer en varios formatos para tener escala real.",
+      "autor": "Dara Denney",
+      "titulo": "The Easiest Way To Make Winning Meta Ads (in 2026)",
+      "t": "8:44",
+      "url": "https://www.youtube.com/watch?v=p4yXXdnCgWg&t=524s"
+     },
+     {
+      "idea": "El formato low-fi de creador funciona como pieza de apoyo dentro del ecosistema creativo.",
+      "autor": "Dara Denney",
+      "titulo": "I Ranked 51 Meta Ad Creative Types (Tier List)",
+      "t": "16:13",
+      "url": "https://www.youtube.com/watch?v=KmbEjy0UBT8&t=973s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-31",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "objecion",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "¿Llega igual que en la foto? Mira la prenda.\n\nLa prenda es de punto liso, con cuello redondo y corte recto y holgado. Eso es lo que se ve en la foto. Si te queda la duda de la talla, escríbenos antes de pedir y te ayudamos a elegirla.\n\nEscríbenos por mensaje directo si tienes dudas de la talla.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ModaMasculinaLima #CamisetasDePunto #RopaParaHombre #EstiloAmericanoLima #PrendasImportadas #ComprasPorWhatsApp\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Validación automática, imagen 1 (5/5): logo o etiqueta en primer plano (el generador los deforma)"
+   ],
+   "movimiento": "",
+   "formatos": [
+    "titular"
+   ],
+   "consejo": {
+    "gran_idea": "Elige tu talla por el corte y el tejido, no por el número.",
+    "objetivo": "objecion",
+    "persona": "Hombre de 31 años en Lima que duda en comprar ropa importada por redes porque no la puede tocar.",
+    "objecion": "Desconfía de comprar ropa importada por redes: ¿llega igual que en la foto? (supuesta)",
+    "conciencia": "muy consciente",
+    "criterio": [
+     {
+      "idea": "Haz la pieza directamente alrededor de la razón por la que la gente no compra.",
+      "autor": "Dara Denney",
+      "titulo": "I've created 20,000+ ads. Here's what's converting NOW.",
+      "t": "7:50",
+      "url": "https://www.youtube.com/watch?v=ePcEcT2PH8E&t=470s"
+     },
+     {
+      "idea": "Lo específico gana a lo general: datos concretos de la prenda en lugar de superlativos.",
+      "autor": "Dara Denney",
+      "titulo": "The 5 Most Important Ogilvy Ads for Meta Advertisers",
+      "t": "1:54",
+      "url": "https://www.youtube.com/watch?v=si9prxsJIE0&t=114s"
+     },
+     {
+      "idea": "Responder objeciones es una de las estrategias que usan los anuncios que mejor rinden.",
+      "autor": "Dara Denney",
+      "titulo": "4 Consumer Psychology Tricks to Explode Your Facebook Ads",
+      "t": "0:00",
+      "url": "https://www.youtube.com/watch?v=x0pJ484ZO1o&t=0s"
+     }
+    ]
+   }
+  }
+ ],
+ "consejo": {
+  "autores": [
+   "Dara Denney"
+  ],
+  "fragmentos": 39,
+  "grandes_ideas": [
+   "Elige tu talla por el corte y el tejido, no por el número.",
+   "Estilo americano en tu día a día, sin viajar a Estados Unidos."
+  ]
+ }
+}

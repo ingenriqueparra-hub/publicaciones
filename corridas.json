@@ -1,5 +1,19 @@
 [
  {
+  "corrida": "20260930-1816-polo-marca-polo-raph-lauren",
+  "marca_id": "isabella-importa",
+  "marca": "Isabella Importa",
+  "producto": "Camiseta amarilla estampada",
+  "semana": "2026-10-26",
+  "creada": "2026-09-30 18:16",
+  "modelos": [
+   "mateo"
+  ],
+  "piezas": 4,
+  "ruta": "corridas/isabella-importa/20260930-1816-polo-marca-polo-raph-lauren/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-1742-blusa-honeydew",
   "marca_id": "isabella-importa",
   "marca": "Isabella Importa",
