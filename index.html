@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Corridas de contenido</title>
+<link rel="stylesheet" href="assets/tablero.css">
+</head>
+<body>
+<main class="app">
+  <header class="top"><h1>Corridas de contenido</h1><span class="ruta">una fila por corrida · la más reciente arriba</span></header>
+  <div class="tabla"><table>
+    <thead><tr><th></th><th>Corrida</th><th>Marca</th><th>Producto</th><th>Semana</th><th>Piezas</th><th>Enlace</th></tr></thead>
+    <tbody id="filas"><tr><td colspan="7">Cargando…</td></tr></tbody>
+  </table></div>
+  <footer class="pie">Prueba interna. Imágenes generadas con IA (modelo sintética).</footer>
+</main>
+<script>
+fetch("corridas.json", { cache: "no-store" }).then((r) => r.json()).then((cs) => {
+  const tb = document.getElementById("filas");
+  tb.replaceChildren(...cs.map((c) => {
+    const tr = document.createElement("tr");
+    const celdas = [c.miniatura ? Object.assign(document.createElement("img"), { src: c.ruta + c.miniatura, alt: "" }) : "",
+      c.corrida, c.marca, c.producto || "—", c.semana, c.piezas,
+      Object.assign(document.createElement("a"), { href: c.ruta, textContent: "Abrir" })];
+    for (const x of celdas) { const td = document.createElement("td"); td.append(x); tr.append(td); }
+    return tr;
+  }));
+}).catch(() => { document.getElementById("filas").innerHTML = "<tr><td colspan='7'>No se pudo leer corridas.json</td></tr>"; });
+</script>
+</body>
+</html>

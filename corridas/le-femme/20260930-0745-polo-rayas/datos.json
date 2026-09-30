@@ -1,0 +1,87 @@
+{
+ "corrida": "20260930-0745-polo-rayas",
+ "marca": "Le Femme Boutique Surco",
+ "marca_id": "le-femme",
+ "semana": "2026-10-12",
+ "creada": "2026-09-30 07:45",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo_texto": "qwen3.5:9b",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Camiseta polo rayada",
+  "descripcion": "Prenda de manga corta con cuello tipo polo, estampado de rayas horizontales en azul marino, blanco y rojo oscuro. Tejido que parece ser de punto suave, con detalles como botones blancos en el frente y logo bordado en el pecho.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-12",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "reel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg"
+   ],
+   "texto": "¿Cansada de lo mismo para el trabajo cada día?\n\nEsta camiseta polo con rayas es la salvavidas que buscabas. Solo cambia el pantalón y tienes un look nuevo para tu oficina.\nCombínala con jeans oscuros o faldas midi sin esfuerzo. Es práctica, cómoda y te ves arreglada todo el día.\n\nEscríbenos por WhatsApp o mensaje directo para ver tallas y colores.\n\n#LeFemmeSurco #ModaPeru #Surco #OficinaEstilada #LimaModa #TrabajaConEstilo #RopaDeDía\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Revisar que sea cierto (no está en la ficha): nuevo",
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "The woman walks slowly towards the camera from a distance, glances at her reflection in a window, then turns slightly and adjusts the collar of her polo shirt with one hand."
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-14",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "carrusel",
+   "pilar": "estilo",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg",
+    "img/p2_2.jpg",
+    "img/p2_3.jpg",
+    "img/p2_4.jpg"
+   ],
+   "texto": "Necesitas un look listo en 5 minutos.\n\nAprovecha esta polo rayada para ir a esa cena o reunión espontánea. El estampado rompiendo la monotonidad del uniforme.\nEres tú en Surco, Miraflores o La Molina. Siente la confianza de vestirte bien sin complicaciones.\n\nEscríbenos por WhatsApp o mensaje directo para ver tallas y colores.\n\n#LeFemmeSurco #ModaPeru #Surco #SalidaUrgente #LimaStyle #JeansYPolos #MujerActiva\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-16",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "Detalles que marcan la diferencia.\n\nNuestra camiseta polo con rayas tiene botones blancos y un logo bordado discreto. Tejido de punto suave que se adapta a tu cuerpo.\nNo necesitas gastar mucho en marcas grandes. Aquí encuentras calidad real para el día a día en Lima.\n\nEscríbenos por WhatsApp o mensaje directo para ver tallas y colores.\n\n#LeFemmeSurco #ModaPeru #Surco #CalidadReal #LimaFashion #BoutiqueLocal\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-17",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "¿Buscas algo que te quede perfecto?\n\nSabemos lo difícil que es encontrar prendas bien adaptadas a tu medida. Por eso te invitamos a revisar las opciones directamente.\nConócenos y descubre cómo podemos ayudarte a armar tu armario sin sorpresas.\n\nEscríbenos por WhatsApp o mensaje directo para ver tallas y colores.\n\n#LeFemmeSurco #ModaPeru #Surco #TuTallaPerfecta #LimaMujer #ConsejosDeModa\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  }
+ ]
+}
