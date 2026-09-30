@@ -1,0 +1,86 @@
+{
+ "corrida": "20260930-1138-polo-verde-pana",
+ "marca": "Isabella Importa",
+ "marca_id": "isabella-importa",
+ "semana": "2026-10-05",
+ "creada": "2026-09-30 11:38",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Polo de pana verde",
+  "descripcion": "Polo de manga corta en verde oscuro, de pana (tejido acanalado con textura aterciopelada), cuello camisero de punto, tapeta con dos botones y un pequeño logo bordado en el pecho.",
+  "foto": "img/producto.jpg"
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-05",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "carrusel",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg",
+    "img/p1_2.jpg",
+    "img/p1_3.jpg",
+    "img/p1_4.jpg"
+   ],
+   "texto": "¿Cansado de ver el mismo polo en todas las tiendas?\n\nEste polo es de pana: tejido acanalado, con textura aterciopelada y cuello camisero de punto. Se ve distinto a un polo de algodón liso, sin ser formal. Queda bien con jeans y también con pantalón de vestir. Si no sabes qué talla pedir, te ayudamos antes de que lo pidas.\n\nEscríbenos por WhatsApp o mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #ModaMasculinaLima #PolosDePana #EstiloAmericano #RopaParaHombre #ModaHombrePeru #LookUrbano #LimaEstilo\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-07",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "reel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg"
+   ],
+   "texto": "Las tallas de Estados Unidos no son las de aquí\n\nAntes de pedir, coge una prenda tuya que te quede bien y mídela en plano: contorno de pecho y largo total. Esos dos datos dicen más que cualquier letra. Mándanoslos y te ayudamos a elegir.\n\nEscríbenos por WhatsApp con tus medidas y te ayudamos a elegir la talla.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #GuiaDeTallas #ModaMasculinaPeru #CompraPorWhatsApp #EstiloAmericanoHombre #PolosDePana #LimaModa\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "He turns slowly toward the camera and adjusts the collar of the product with one hand."
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-09",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "estilo",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "El plan de sábado pide algo distinto\n\nUn polo de pana verde se ve bien sin esfuerzo: no es lo que ves en todas las tiendas del centro comercial. Va con jeans o con pantalón claro y zapatillas blancas. Sencillo, cómodo y con más carácter que un polo liso.\n\nEscríbenos por mensaje directo para consultar tallas y disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #LookDeFinDeSemana #ModaHombreLima #PolosDePana #EstiloCasualHombre #RopaParaCitas #LimaOutfits\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-10",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "oferta",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "¿Regalo para él y no sabes qué talla pedir?\n\nSi le vas a regalar ropa, el lío casi nunca es el modelo: es la talla. Fíjate en una prenda suya que le quede bien, mídelas y mándanos las medidas. Con eso te ayudamos a elegir el polo de pana verde.\n\nEscríbenos por WhatsApp o mensaje directo y te ayudamos con la talla y la disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #RegaloParaEl #ModaMasculinaPeru #PolosDePana #RopaDeHombrePeru #CompraPorWhatsApp #IdeasDeRegalo\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": ""
+  }
+ ]
+}

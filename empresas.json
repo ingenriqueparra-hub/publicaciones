@@ -70,15 +70,15 @@
    "estado": "borrador",
    "rubro": "Importadora de ropa de Estados Unidos para hombre y mujer, con venta en Perú por redes sociales: polos, camisas, jeans, casacas, vestidos y ropa casual",
    "productos": 1,
-   "corridas": 1,
+   "corridas": 2,
    "ultima": {
-    "corrida": "20260930-1118-polo-verde-pana",
+    "corrida": "20260930-1138-polo-verde-pana",
     "marca_id": "isabella-importa",
     "marca": "Isabella Importa",
-    "producto": "Polo verde de piqué",
+    "producto": "Polo de pana verde",
     "semana": "2026-10-05",
     "piezas": 4,
-    "ruta": "corridas/isabella-importa/20260930-1118-polo-verde-pana/",
+    "ruta": "corridas/isabella-importa/20260930-1138-polo-verde-pana/",
     "miniatura": "img/p1_1.jpg"
    },
    "miniatura": "empresas/isabella-importa/productos/polo-verde-pana.jpg"
