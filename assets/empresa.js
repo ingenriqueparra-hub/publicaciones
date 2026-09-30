@@ -124,7 +124,7 @@
       }
       return c;
     }
-    function refrescar() {
+    let refrescar = function () {
       const c = cambios(), n = Object.keys(c).length;
       const guardables = {}; for (const k of Object.keys(c)) guardables[k] = actual[k];
       escribir(clave, n ? guardables : null);
@@ -132,7 +132,7 @@
       cuenta.textContent = n ? `${n} campo${n > 1 ? "s" : ""} modificado${n > 1 ? "s" : ""}` : "Sin cambios";
       [btnCopiar, btnBajar, btnDescartar].forEach((b) => (b.disabled = !n));
       document.querySelectorAll(".campo[data-k]").forEach((el) => el.classList.toggle("cambiado", k_cambiado(el.dataset.k, c)));
-    }
+    };
     const k_cambiado = (k, c) => {
       if (!k.includes("/")) return k in c;
       const [pid, campo] = k.split("/");
@@ -149,26 +149,68 @@
       h("p", { class: "vacio" }, "Para añadir un producto hace falta su foto: envíala al estudio (se da de alta con contenido.py producto)."));
     const mias = corridas.filter((c) => c.marca_id === id);
 
+    // Dos vistas en la misma página: CORRIDAS (por defecto, lo principal) y FICHA (#ficha, con el botón «Editar ficha»)
+    const fechaHora = (c) => (c.creada || "").replace(/^\d{4}-(\d\d)-(\d\d)/, "$2/$1") || c.corrida.slice(0, 13);
+    const btnFicha = h("a", { class: "btn", href: "#ficha", style: "margin-left:auto;text-decoration:none" }, "Editar ficha");
+    const fr = ficha.frecuencia || { mezcla: {} };
+    const mezcla = [["foto", "post"], ["carrusel", "carrusel"], ["reel", "reel"]].filter(([k]) => fr.mezcla[k]).map(([k, t]) => `${fr.mezcla[k]} ${t}${fr.mezcla[k] > 1 && k !== "carrusel" ? "s" : fr.mezcla[k] > 1 ? "es" : ""}`).join(" · ");
+    const vistaCorridas = h("div", { class: "vista", style: "display:grid;gap:14px;min-width:0" },
+      h("section", { class: "resumen sin-foto", "aria-label": "Resumen de la empresa" }, h("dl", { class: "kv" },
+        [["Rubro", ficha.rubro || "Ficha sin completar", "ancho"], ["Redes", (ficha.redes || []).join(", ") || "—"],
+          ["Por semana", mezcla || "—"], ["Modelo por defecto", ficha.modelo || "sin modelo"],
+          ["Productos", ficha.productos.length], ["Corridas", mias.length]]
+          .map(([k, v, c]) => h("div", { class: c }, h("dt", {}, k), h("dd", {}, String(v)))))),
+      h("section", { class: "panel" }, h("h2", {}, "Corridas", h("small", {}, `${mias.length} · la más reciente arriba`)),
+        mias.length ? h("div", { class: "tabla plana" }, h("table", {},
+          h("thead", {}, h("tr", {}, ["", "Fecha", "Producto", "Semana a publicar", "Piezas", "Modelo", ""].map((t) => h("th", {}, t)))),
+          h("tbody", {}, mias.map((c) => h("tr", {},
+            h("td", {}, c.miniatura ? h("a", { href: "../../" + c.ruta }, h("img", { src: "../../" + c.ruta + c.miniatura, alt: "" })) : ""),
+            h("td", {}, fechaHora(c)), h("td", {}, h("a", { href: "../../" + c.ruta }, c.producto || "general")),
+            h("td", {}, `${c.semana.slice(8)}/${c.semana.slice(5, 7)}`), h("td", {}, c.piezas),
+            h("td", {}, (c.modelos && c.modelos.length) ? c.modelos.join(", ") : "sin modelo"),
+            h("td", {}, h("a", { class: "btn", href: "../../" + c.ruta, style: "text-decoration:none" }, "Abrir")))))))
+          : h("p", { class: "vacio" }, "Todavía sin corridas. Una corrida nace de la foto de un producto: envíala al estudio.")),
+      h("section", { class: "panel" }, h("h2", {}, "Productos", h("small", {}, `${ficha.productos.length}`)),
+        ficha.productos.length ? h("div", { class: "prods-mini" }, ficha.productos.map((p) => h("figure", {},
+          p.foto ? h("img", { src: p.foto, alt: "" }) : h("div"),
+          h("figcaption", {}, h("b", {}, p.nombre), h("span", {}, `modelo: ${p.modelo || ficha.modelo || "sin modelo"}${p.precio ? " · " + p.precio : ""}`)))))
+          : h("p", { class: "vacio" }, "Sin productos.")));
+    const vistaFicha = h("div", { class: "cols", hidden: true },
+      h("div", { class: "campos-col", style: "display:grid;gap:14px;min-width:0" }, secciones, prods),
+      h("aside", { class: "lateral" },
+        h("section", { class: "panel" }, h("h2", {}, "Exportar cambios"),
+          h("div", { class: "export" }, cuenta,
+            h("p", {}, "Aún no hay base de datos: lo que edites queda solo en este navegador. Copia o descarga los cambios y envíalos al estudio; allí se aplican a la ficha."),
+            h("div", { class: "fila" }, btnCopiar, btnBajar, btnDescartar), pre)),
+        h("section", { class: "panel" }, h("h2", {}, "Modelos disponibles"),
+          h("div", { class: "caras" }, Object.entries(sitio.modelos).map(([k, d]) => h("figure", {},
+            h("img", { src: `../../modelos/${k}.jpg`, alt: k, loading: "lazy" }), h("figcaption", {}, h("b", {}, k), h("span", {}, d))))))));
+    const migas = h("span", { class: "ruta" });
+    function vista() {
+      const enFicha = location.hash === "#ficha";
+      vistaFicha.hidden = !enFicha; vistaCorridas.hidden = enFicha;
+      btnFicha.textContent = enFicha ? "← Volver a corridas" : btnFicha.dataset.txt || "Editar ficha";
+      btnFicha.setAttribute("href", enFicha ? "#" : "#ficha");
+      migas.replaceChildren(h("a", { href: "../../" }, "empresas"), " / ", enFicha ? h("a", { href: "#" }, id) : id, enFicha ? " / ficha" : "");
+      document.title = `${ficha.nombre} · ${enFicha ? "ficha" : "corridas"}`;
+      window.scrollTo(0, 0);
+    }
+    window.addEventListener("hashchange", vista);
+    const refrescarBase = refrescar;
+    refrescar = function () {  // el botón avisa si hay cambios sin exportar
+      refrescarBase();
+      const n = Object.keys(cambios()).length;
+      btnFicha.dataset.txt = n ? `Editar ficha · ${n} sin exportar` : "Editar ficha";
+      btnFicha.classList.toggle("prim", !!n && location.hash !== "#ficha");
+      if (location.hash !== "#ficha") btnFicha.textContent = btnFicha.dataset.txt;
+    };
+
     raiz.append(
-      h("header", { class: "top" }, h("h1", {}, ficha.nombre), h("span", { class: `chip ${actual.estado || "borrador"}` }, actual.estado || "borrador"),
-        h("span", { class: "ruta" }, h("a", { href: "../../" }, "empresas"), ` / ${id}`)),
-      h("div", { class: "cols" },
-        h("div", { class: "campos-col", style: "display:grid;gap:14px;min-width:0" }, secciones, prods),
-        h("aside", { class: "lateral" },
-          h("section", { class: "panel" }, h("h2", {}, "Exportar cambios"),
-            h("div", { class: "export" }, cuenta,
-              h("p", {}, "Aún no hay base de datos: lo que edites queda solo en este navegador. Copia o descarga los cambios y envíalos al estudio; allí se aplican a la ficha."),
-              h("div", { class: "fila" }, btnCopiar, btnBajar, btnDescartar), pre)),
-          h("section", { class: "panel" }, h("h2", {}, "Modelos disponibles"),
-            h("div", { class: "caras" }, Object.entries(sitio.modelos).map(([k, d]) => h("figure", {},
-              h("img", { src: `../../modelos/${k}.jpg`, alt: k, loading: "lazy" }), h("figcaption", {}, h("b", {}, k), h("span", {}, d)))))),
-          h("section", { class: "panel" }, h("h2", {}, "Corridas", h("small", {}, `${mias.length}`)),
-            mias.length ? h("div", { class: "lista-c" }, mias.map((c) => h("a", { href: "../../" + c.ruta },
-              c.miniatura ? h("img", { src: "../../" + c.ruta + c.miniatura, alt: "" }) : null,
-              h("span", { class: "c-txt" }, h("b", {}, c.producto || "general"),
-                h("span", {}, `${(c.creada || "").slice(5).replace("-", "/") || c.corrida.slice(0, 13)} · ${c.piezas} piezas · ${(c.modelos && c.modelos.length) ? c.modelos.join(", ") : "sin modelo"}`)))))
-              : h("p", { class: "vacio" }, "Todavía sin corridas.")))),
+      h("header", { class: "top", style: "align-items:center" }, h("h1", {}, ficha.nombre),
+        h("span", { class: `chip ${actual.estado || "borrador"}` }, actual.estado || "borrador"), migas, btnFicha),
+      vistaCorridas, vistaFicha,
       h("footer", { class: "pie" }, `Ficha exportada el ${ficha._version.replace("T", " ")}. Prueba interna.`));
+    vista();
     refrescar();
   }
 
