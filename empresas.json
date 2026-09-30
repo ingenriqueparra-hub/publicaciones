@@ -1,0 +1,129 @@
+{
+ "modelos": {
+  "sofia": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+  "amara": "Afrolatina, 32 años, curvy / talla grande, pelo rizado natural",
+  "mei": "Asiática oriental, 30 años, atlética, pelo liso a los hombros",
+  "diego": "Latino, 33 años, atlético, barba corta (moda masculina)"
+ },
+ "empresas": [
+  {
+   "id": "le-femme",
+   "nombre": "Le Femme Boutique Surco",
+   "estado": "activa",
+   "rubro": "Boutique de ropa femenina en Santiago de Surco, Lima (Perú): vestidos, blusas, jeans, conjuntos casuales y de oficina",
+   "productos": 1,
+   "corridas": 1,
+   "ultima": {
+    "corrida": "20260930-0745-polo-rayas",
+    "marca": "Le Femme Boutique Surco",
+    "producto": "Camiseta polo rayada",
+    "semana": "2026-10-12",
+    "piezas": 4,
+    "ruta": "corridas/le-femme/20260930-0745-polo-rayas/",
+    "miniatura": "img/p1_1.jpg",
+    "marca_id": "le-femme"
+   },
+   "miniatura": "empresas/le-femme/productos/polo-rayas.jpg"
+  },
+  {
+   "id": "agil-peru",
+   "nombre": "Agil Peru",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "aumenta",
+   "nombre": "Aumenta",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "dropshipping-peru",
+   "nombre": "Dropshipping Peru",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "improve-systems",
+   "nombre": "Improve Systems",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "isabella-importa",
+   "nombre": "Isabella Importa",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "jobsti",
+   "nombre": "Jobsti",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "mega-latinoamerica",
+   "nombre": "Mega Latinoamerica",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "negocios-gamers",
+   "nombre": "Negocios Gamers",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "robih",
+   "nombre": "Robih",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  },
+  {
+   "id": "your-live",
+   "nombre": "Your Live",
+   "estado": "borrador",
+   "rubro": "",
+   "productos": 0,
+   "corridas": 0,
+   "ultima": null,
+   "miniatura": ""
+  }
+ ]
+}

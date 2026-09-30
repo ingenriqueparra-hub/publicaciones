@@ -1,0 +1,53 @@
+{
+ "nombre": "Le Femme Boutique Surco",
+ "pagina_facebook": "Le Femme Boutique Surco",
+ "estado": "activa",
+ "rubro": "Boutique de ropa femenina en Santiago de Surco, Lima (Perú): vestidos, blusas, jeans, conjuntos casuales y de oficina",
+ "publico": "Mujeres de 25 a 45 años de Lima (Surco, Miraflores, La Molina, San Borja) que trabajan y buscan verse arregladas sin gastar como en marca de centro comercial",
+ "problemas_del_publico": [
+  "No saber qué ponerse para la oficina que no sea aburrido",
+  "Encontrar prendas que queden bien a su talla",
+  "Combinar una misma prenda de varias formas para no repetir looks",
+  "Tener un look listo para un evento o una salida de última hora"
+ ],
+ "tono": "Cercano, seguro y práctico, como una amiga que sabe de moda. Frases cortas. Nada de lenguaje de influencer exagerado",
+ "tratamiento": "tú",
+ "idioma": "español de Perú",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "llamada_a_la_accion": "Escríbenos por WhatsApp o mensaje directo para ver tallas y colores",
+ "enlace": "",
+ "modelo": "sofia",
+ "productos": [
+  {
+   "id": "polo-rayas",
+   "nombre": "Camiseta polo rayada",
+   "descripcion": "Prenda de manga corta con cuello tipo polo, estampado de rayas horizontales en azul marino, blanco y rojo oscuro. Tejido que parece ser de punto suave, con detalles como botones blancos en el frente y logo bordado en el pecho.",
+   "foto": "productos/polo-rayas.jpg"
+  }
+ ],
+ "testimonios": [],
+ "hashtags_base": [
+  "#LeFemmeSurco",
+  "#ModaPeru",
+  "#Surco"
+ ],
+ "declaracion_ia": "📸 Imagen creada con IA.",
+ "frecuencia": {
+  "posts_semana": 4,
+  "mezcla": {
+   "foto": 2,
+   "carrusel": 1,
+   "reel": 1
+  },
+  "horas": [
+   "12:30",
+   "19:30"
+  ]
+ },
+ "notas": "Negocio de prueba (página inactiva). Sin fotos de producto propias: las prendas se describen en el prompt. Sin testimonios reales: no se usa el pilar de prueba social.",
+ "id": "le-femme",
+ "_version": "2026-09-30T09:43"
+}

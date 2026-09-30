@@ -39,7 +39,8 @@
     raiz.append(
       h("header", { class: "top" },
         h("h1", {}, `Revisión de piezas · ${d.marca}`),
-        h("span", { class: "ruta" }, h("a", { href: "../../../" }, "corridas"), ` / ${d.marca_id} / ${d.corrida}`)),
+        h("span", { class: "ruta" }, h("a", { href: "../../../" }, "empresas"), " / ",
+          h("a", { href: `../../../empresas/${d.marca_id}/` }, d.marca_id), ` / ${d.corrida}`)),
       h("section", { class: "resumen", "aria-label": "Datos de la corrida" },
         d.producto?.foto ? h("img", { src: d.producto.foto, alt: "Foto de partida del producto" }) : h("div"),
         h("dl", { class: "kv" },

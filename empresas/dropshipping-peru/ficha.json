@@ -1,0 +1,37 @@
+{
+ "nombre": "Dropshipping Peru",
+ "pagina_facebook": "Dropshipping Peru",
+ "estado": "borrador",
+ "rubro": "",
+ "publico": "",
+ "problemas_del_publico": [],
+ "tono": "",
+ "tratamiento": "tú",
+ "idioma": "español de Perú",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "llamada_a_la_accion": "",
+ "enlace": "",
+ "modelo": "",
+ "productos": [],
+ "testimonios": [],
+ "hashtags_base": [],
+ "declaracion_ia": "📸 Imagen creada con IA.",
+ "frecuencia": {
+  "posts_semana": 4,
+  "mezcla": {
+   "foto": 2,
+   "carrusel": 1,
+   "reel": 1
+  },
+  "horas": [
+   "12:30",
+   "19:30"
+  ]
+ },
+ "notas": "Negocio de prueba (página de Facebook inactiva). Ficha por completar.",
+ "id": "dropshipping-peru",
+ "_version": "2026-09-30T09:43"
+}
