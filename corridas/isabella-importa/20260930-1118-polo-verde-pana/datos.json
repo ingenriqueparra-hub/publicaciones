@@ -8,7 +8,7 @@
   "facebook",
   "instagram"
  ],
- "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo": "Sin modelo (solo producto)",
  "modelo_texto": "deepseek-v4-flash",
  "modelo_imagen": "Qwen Image 2.1 (local)",
  "producto": {
@@ -85,5 +85,6 @@
    "avisos": [],
    "movimiento": ""
   }
- ]
+ ],
+ "modelos": []
 }

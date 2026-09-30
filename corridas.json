@@ -7,7 +7,11 @@
   "semana": "2026-10-05",
   "piezas": 4,
   "ruta": "corridas/isabella-importa/20260930-1138-polo-verde-pana/",
-  "miniatura": "img/p1_1.jpg"
+  "miniatura": "img/p1_1.jpg",
+  "creada": "2026-09-30 11:38",
+  "modelos": [
+   "diego"
+  ]
  },
  {
   "corrida": "20260930-1118-polo-verde-pana",
@@ -17,7 +21,9 @@
   "semana": "2026-10-05",
   "piezas": 4,
   "ruta": "corridas/isabella-importa/20260930-1118-polo-verde-pana/",
-  "miniatura": "img/p1_1.jpg"
+  "miniatura": "img/p1_1.jpg",
+  "creada": "2026-09-30 11:18",
+  "modelos": []
  },
  {
   "corrida": "20260930-0745-polo-rayas",
@@ -27,6 +33,10 @@
   "piezas": 4,
   "ruta": "corridas/le-femme/20260930-0745-polo-rayas/",
   "miniatura": "img/p1_1.jpg",
-  "marca_id": "le-femme"
+  "marca_id": "le-femme",
+  "creada": "2026-09-30 07:45",
+  "modelos": [
+   "sofia"
+  ]
  }
 ]

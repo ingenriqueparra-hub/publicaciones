@@ -83,5 +83,12 @@
    "avisos": [],
    "movimiento": ""
   }
+ ],
+ "modelos": [
+  {
+   "id": "sofia",
+   "desc": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+   "foto": "../../../modelos/sofia.jpg"
+  }
  ]
 }

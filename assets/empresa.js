@@ -54,12 +54,13 @@
       { k: "hashtags_base", t: "lista", l: "Hashtags fijos", ayuda: "Uno por línea, con #." },
       { k: "declaracion_ia", t: "texto", l: "Declaración de IA", ayuda: "Va al final de cada texto. Obligatoria." }]],
     ["Contenido", [
-      { k: "modelo", t: "modelo", l: "Modelo sintética" },
+      { k: "modelo", t: "modelo", l: "Modelo por defecto", ayuda: "Cada producto puede llevar otra (ver Productos)." },
       { k: "testimonios", t: "lista", l: "Testimonios reales", ayuda: "Solo reales, citados tal cual. Sin testimonios no se usa el pilar de prueba social.", ancho: true },
       { k: "notas", t: "area", l: "Notas internas", ancho: true }]],
   ];
   const PRODUCTO = [
     { k: "nombre", t: "texto", l: "Nombre" }, { k: "precio", t: "texto", l: "Precio", ayuda: "Solo si es real." },
+    { k: "modelo", t: "modelo", l: "Modelo que lo lleva", vacio: "La de la ficha", ayuda: "Si se deja vacío, se usa la modelo por defecto de la empresa." },
     { k: "descripcion", t: "area", l: "Descripción", ancho: true },
     { k: "datos", t: "texto", l: "Otros datos reales", ayuda: "Tallas, tela, colores disponibles…", ancho: true }];
 
@@ -71,7 +72,7 @@
     else if (c.t === "area") el = h("textarea", { id, rows: 3, oninput: (e) => alCambiar(e.target.value) }, valor ?? "");
     else if (c.t === "lista") el = h("textarea", { id, rows: 4, oninput: (e) => alCambiar(e.target.value.split("\n").map((x) => x.trim()).filter(Boolean)) }, (valor || []).join("\n"));
     else if (c.t === "select" || c.t === "modelo") {
-      const ops = c.t === "modelo" ? [["", "Sin modelo (solo producto)"], ...Object.entries(ctx.modelos || window.__MODELOS || {}).map(([k, d]) => [k, `${k} · ${d}`])] : c.ops;
+      const ops = c.t === "modelo" ? [["", c.vacio || "Sin modelo (solo producto)"], ...Object.entries(ctx.modelos || window.__MODELOS || {}).map(([k, d]) => [k, `${k} · ${d}`])] : c.ops;
       if (valor && !ops.some(([k]) => k === valor)) ops.push([valor, valor]);
       el = h("select", { id, onchange: (e) => alCambiar(e.target.value) }, ops.map(([k, t]) => h("option", { value: k, selected: k === (valor ?? "") }, t)));
     } else if (c.t === "checks") {
@@ -158,9 +159,14 @@
             h("div", { class: "export" }, cuenta,
               h("p", {}, "Aún no hay base de datos: lo que edites queda solo en este navegador. Copia o descarga los cambios y envíalos al estudio; allí se aplican a la ficha."),
               h("div", { class: "fila" }, btnCopiar, btnBajar, btnDescartar), pre)),
+          h("section", { class: "panel" }, h("h2", {}, "Modelos disponibles"),
+            h("div", { class: "caras" }, Object.entries(sitio.modelos).map(([k, d]) => h("figure", {},
+              h("img", { src: `../../modelos/${k}.jpg`, alt: k, loading: "lazy" }), h("figcaption", {}, h("b", {}, k), h("span", {}, d)))))),
           h("section", { class: "panel" }, h("h2", {}, "Corridas", h("small", {}, `${mias.length}`)),
             mias.length ? h("div", { class: "lista-c" }, mias.map((c) => h("a", { href: "../../" + c.ruta },
-              h("b", {}, c.producto || "general"), h("span", {}, `semana ${c.semana.slice(8)}/${c.semana.slice(5, 7)} · ${c.piezas} piezas`))))
+              c.miniatura ? h("img", { src: "../../" + c.ruta + c.miniatura, alt: "" }) : null,
+              h("span", { class: "c-txt" }, h("b", {}, c.producto || "general"),
+                h("span", {}, `${(c.creada || "").slice(5).replace("-", "/") || c.corrida.slice(0, 13)} · ${c.piezas} piezas · ${(c.modelos && c.modelos.length) ? c.modelos.join(", ") : "sin modelo"}`)))))
               : h("p", { class: "vacio" }, "Todavía sin corridas.")))),
       h("footer", { class: "pie" }, `Ficha exportada el ${ficha._version.replace("T", " ")}. Prueba interna.`));
     refrescar();

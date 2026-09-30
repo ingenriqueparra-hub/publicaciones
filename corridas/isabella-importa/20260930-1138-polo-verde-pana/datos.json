@@ -8,7 +8,7 @@
   "facebook",
   "instagram"
  ],
- "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo": "Latino joven, 25 años, degradado a los lados, barba corta, look urbano (moda masculina)",
  "modelo_texto": "deepseek-v4-flash",
  "modelo_imagen": "Qwen Image 2.1 (local)",
  "producto": {
@@ -81,6 +81,13 @@
    "texto": "¿Regalo para él y no sabes qué talla pedir?\n\nSi le vas a regalar ropa, el lío casi nunca es el modelo: es la talla. Fíjate en una prenda suya que le quede bien, mídelas y mándanos las medidas. Con eso te ayudamos a elegir el polo de pana verde.\n\nEscríbenos por WhatsApp o mensaje directo y te ayudamos con la talla y la disponibilidad.\n\n#IsabellaImporta #RopaImportada #RopaDeUSA #ModaPeru #RegaloParaEl #ModaMasculinaPeru #PolosDePana #RopaDeHombrePeru #CompraPorWhatsApp #IdeasDeRegalo\n\n📸 Imagen creada con IA.",
    "avisos": [],
    "movimiento": ""
+  }
+ ],
+ "modelos": [
+  {
+   "id": "diego",
+   "desc": "Latino joven, 25 años, degradado a los lados, barba corta, look urbano (moda masculina)",
+   "foto": "../../../modelos/diego.jpg"
   }
  ]
 }

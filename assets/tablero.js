@@ -45,10 +45,12 @@
         d.producto?.foto ? h("img", { src: d.producto.foto, alt: "Foto de partida del producto" }) : h("div"),
         h("dl", { class: "kv" },
           ...[["Producto", d.producto?.nombre || "—"], ["Semana", `${fecha(d.semana)} (lunes)`], ["Piezas", d.piezas.length],
-            ["Modelo", d.modelo || "—"], ["Texto", d.modelo_texto], ["Imagen", d.modelo_imagen],
+            ["Modelo", (d.modelos && d.modelos.length)
+              ? h("span", { class: "modelos" }, d.modelos.map((m) => h("span", { class: "modelo" }, h("img", { src: m.foto, alt: "" }), h("span", {}, h("b", {}, m.id), " · " + m.desc))))
+              : (d.modelo || "—")], ["Texto", d.modelo_texto], ["Imagen", d.modelo_imagen],
             ["Corrida", d.creada], ["Redes", d.redes.join(", ")],
             ...(d.producto?.descripcion ? [["Descripción del producto", d.producto.descripcion, "ancho"]] : [])]
-            .map(([k, v, c]) => h("div", { class: c }, h("dt", {}, k), h("dd", {}, String(v)))))));
+            .map(([k, v, c]) => h("div", { class: c }, h("dt", {}, k), h("dd", {}, v && v.nodeType ? v : String(v)))))));
 
     const barra = h("div", { class: "barra", role: "group", "aria-label": "Filtrar por estado" });
     const lista = h("section", { class: "piezas" });
