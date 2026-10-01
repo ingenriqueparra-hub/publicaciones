@@ -1,5 +1,19 @@
 [
  {
+  "corrida": "20260930-2025-ia-aplicada",
+  "marca_id": "aumenta",
+  "marca": "Aumenta",
+  "producto": "IA aplicada al trabajo",
+  "semana": "2026-10-05",
+  "creada": "2026-09-30 20:25",
+  "modelos": [
+   "mateo"
+  ],
+  "piezas": 4,
+  "ruta": "corridas/aumenta/20260930-2025-ia-aplicada/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-1929-ia-aplicada",
   "marca_id": "aumenta",
   "marca": "Aumenta",
