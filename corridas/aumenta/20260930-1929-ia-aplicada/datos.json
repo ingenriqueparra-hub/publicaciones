@@ -1,0 +1,239 @@
+{
+ "corrida": "20260930-1929-ia-aplicada",
+ "marca": "Aumenta",
+ "marca_id": "aumenta",
+ "semana": "2026-10-05",
+ "creada": "2026-09-30 19:29",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelos": [
+  {
+   "id": "mateo",
+   "desc": "Latino joven, 25 años, pelo rizado corto, barba de unos días, cara amable (moda masculina)",
+   "foto": "../../../modelos/mateo.jpg"
+  }
+ ],
+ "modelo": "Latino joven, 25 años, pelo rizado corto, barba de unos días, cara amable (moda masculina)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "IA aplicada al trabajo",
+  "descripcion": "Capacitación práctica para usar herramientas de inteligencia artificial en tareas del día a día: redactar, resumir, analizar información y automatizar tareas repetitivas.",
+  "foto": null
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-05",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg"
+   ],
+   "texto": "¿Por dónde se empieza a usar IA en el trabajo?\n\nNo necesitas dominar todo de una vez. Empieza por una tarea que repites cada semana: un correo, un resumen, un informe. Prueba, compara y quédate con lo que te ahorre tiempo de verdad. Así la IA se vuelve parte de tu día, no un curso más.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #IAParaElTrabajo #CapacitacionIA #AprenderIA #LimaPeru #ProductividadPeru #ProfesionalesPeru #TrabajoInteligente\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "infografia"
+   ],
+   "consejo": {
+    "gran_idea": "La IA aplicada se aprende practicando con las tareas que ya haces en tu trabajo, no memorizando teoría.",
+    "objetivo": "educar",
+    "persona": "Profesional de 30 años en Lima que siente que la IA avanza rápido y no sabe por dónde empezar a usarla en su trabajo.",
+    "objecion": "No sé por dónde empezar a usar la IA en mi trabajo (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Contenido que resuelve un problema real de la persona atrae compradores: hay que hablar de sus problemas, no de la marca.",
+      "autor": "Romuald Fons",
+      "titulo": "¿3 ventas al día? Estás haciendo TODO MAL",
+      "t": "6:31",
+      "url": "https://www.youtube.com/watch?v=giqKdgls_9U&t=391s"
+     },
+     {
+      "idea": "El propio contenido debe dar valor: educar en la misma pieza baja el escepticismo del mercado.",
+      "autor": "Sabri Suby",
+      "titulo": "How To Convert More Customers Online (WITHOUT Spending Extra Money) #HEYSABRI",
+      "t": "0:02",
+      "url": "https://www.youtube.com/watch?v=zw-wST8rFr8&t=2s"
+     },
+     {
+      "idea": "Nombrar el problema mejor de lo que el prospecto lo nombra hace que él mismo te vea como quien puede resolverlo.",
+      "autor": "Sabri Suby",
+      "titulo": "How To Get Your First Clients (Without a Portfolio!) #HEYSABRI",
+      "t": "2:04",
+      "url": "https://www.youtube.com/watch?v=GcEs7MGdr2o&t=124s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-07",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "carrusel",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg",
+    "img/p2_2.jpg",
+    "img/p2_3.jpg",
+    "img/p2_4.jpg"
+   ],
+   "texto": "Usa la IA en las tareas que ya haces cada día.\n\nEn la capacitación trabajamos con casos del trabajo real, no con ejercicios de laboratorio. Redactar, resumir, analizar información y automatizar lo repetitivo. Practicas con tus propias tareas y sales con la costumbre armada. Sin convertirte en experto técnico.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #IAenElTrabajo #CursoIA #TallerIA #Lima #OficinaProductiva #AprenderHaciendo #EquiposDeTrabajo #PeruDigital\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular",
+    "infografia",
+    "beneficios",
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "La IA aplicada se aprende practicando con las tareas que ya haces en tu trabajo, no memorizando teoría.",
+    "objetivo": "producto",
+    "persona": "Profesional de 38 años que ya probó cursos teóricos y no logró llevar nada de eso a su trabajo diario.",
+    "objecion": "Ya hice cursos teóricos que no pude aplicar en mi trabajo (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Regalar el cómo y vender la implementación: el contenido enseña el método y la capacitación lo pone en práctica contigo.",
+      "autor": "Sabri Suby",
+      "titulo": "6 Dark Marketing Tactics That Force You To Buy",
+      "t": "14:14",
+      "url": "https://www.youtube.com/watch?v=E3KFx1a2pNI&t=854s"
+     },
+     {
+      "idea": "La mayor parte del mensaje debe hablar del prospecto y de su resultado, no del sistema de la marca.",
+      "autor": "Sabri Suby",
+      "titulo": "How To ACTUALLY Build a Funnel That Makes Millions",
+      "t": "3:44",
+      "url": "https://www.youtube.com/watch?v=bgrrqzMl5sw&t=224s"
+     },
+     {
+      "idea": "El contenido de IA debe mostrar cómo usarla en el día a día, desde lo positivo y sin vender miedo.",
+      "autor": "Romuald Fons",
+      "titulo": "Tengo 10 MILLONES de visitas al mes y casi NADIE me compra - ESDR #52",
+      "t": "7:20",
+      "url": "https://www.youtube.com/watch?v=iqsihILnCdI&t=440s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-09",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "objecion",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "Saber de IA no es lo mismo que usarla.\n\nSi ya viste videos y cursos teóricos y tu trabajo sigue igual, el problema no eres tú: falta práctica con tareas reales. La IA se aprende haciendo, con lo que tienes pendiente esta semana. Empieza pequeño y con alguien que te corrija el camino.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #IAparaProfesionales #CapacitacionPractica #UsoDeIA #LimaPeru #ProductividadLaboral #AprenderIA\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "No necesitas ser experto técnico para empezar a usar IA en tu trabajo.",
+    "objetivo": "objecion",
+    "persona": "Profesional de 42 años que siente que la IA avanza rápido y que se está quedando atrás en su trabajo.",
+    "objecion": "Siento que la IA avanza rápido y me estoy quedando atrás (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Cada contenido debe responder a una objeción concreta del buyer persona, casi con sus propias palabras.",
+      "autor": "Romuald Fons",
+      "titulo": "Un SEO me ha ‘robado’ mi marca en Google - ESDR #47",
+      "t": "6:39",
+      "url": "https://www.youtube.com/watch?v=bNFaIfjK8-o&t=399s"
+     },
+     {
+      "idea": "El anuncio no vende: su única misión es conseguir el clic y abrir la conversación.",
+      "autor": "Sabri Suby",
+      "titulo": "Digital Marketing Isn't Hard, It's Misunderstood",
+      "t": "13:11",
+      "url": "https://www.youtube.com/watch?v=JEnO3a87RwQ&t=791s"
+     },
+     {
+      "idea": "Primero explicas lo que la persona tiene que hacer y después le ofreces ayuda profesional si quiere ir más rápido.",
+      "autor": "Romuald Fons",
+      "titulo": "Facturamos mucho dinero pero nuestro marketing da pena - ESDR #40",
+      "t": "35:11",
+      "url": "https://www.youtube.com/watch?v=gNj3CQ1Xxeo&t=2111s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-10",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "reel",
+   "pilar": "inspirar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "No necesitas ser técnico para usar IA en tu trabajo.\n\nLa IA no es un tema solo de ingenieros: es una herramienta que se aprende usándola. Profesionales de todas las áreas ya la aplican en lo que hacen todos los días. La diferencia está en practicar con tus propias tareas, no en saberlo todo de memoria.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #IAdiaria #HerramientasIA #TrabajoYIA #LimaPeru #Profesionales #CapacitacionIA\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "He gestures with one open hand while explaining to the camera, then leans back and smiles slightly.",
+   "formatos": [
+    "lifestyle"
+   ],
+   "consejo": {
+    "gran_idea": "No necesitas ser experto técnico para empezar a usar IA en tu trabajo.",
+    "objetivo": "inspirar",
+    "persona": "Profesional que quiere usar la IA en su día a día sin volverse experto técnico ni cambiar de carrera.",
+    "objecion": "No sé por dónde empezar a usar la IA en mi trabajo (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Hay que interrumpir el scroll con un beneficio grande y específico para el público correcto.",
+      "autor": "Sabri Suby",
+      "titulo": "18 Years of Copywriting Advice in 93 Minutes",
+      "t": "38:54",
+      "url": "https://www.youtube.com/watch?v=bFR1y5_kAB4&t=2334s"
+     },
+     {
+      "idea": "Entra en la conversación que ya está en la cabeza del prospecto: la tecnología avanza y él no quiere quedarse atrás.",
+      "autor": "Sabri Suby",
+      "titulo": "18 Years of Copywriting Advice in 93 Minutes",
+      "t": "22:24",
+      "url": "https://www.youtube.com/watch?v=bFR1y5_kAB4&t=1344s"
+     },
+     {
+      "idea": "Parte del trabajo del profesional que sabe más es educar al cliente sobre lo que realmente necesita.",
+      "autor": "Romuald Fons",
+      "titulo": "Haz que tus CLIENTES valoren tu TIEMPO",
+      "t": "3:50",
+      "url": "https://www.youtube.com/watch?v=t4cN8azS1w0&t=230s"
+     }
+    ]
+   }
+  }
+ ],
+ "consejo": {
+  "autores": [
+   "Romuald Fons",
+   "Sabri Suby"
+  ],
+  "fragmentos": 82,
+  "grandes_ideas": [
+   "La IA aplicada se aprende practicando con las tareas que ya haces en tu trabajo, no memorizando teoría.",
+   "No necesitas ser experto técnico para empezar a usar IA en tu trabajo."
+  ]
+ }
+}
