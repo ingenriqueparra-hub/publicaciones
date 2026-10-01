@@ -6,6 +6,29 @@
  },
  "empresas": [
   {
+   "id": "aumenta",
+   "nombre": "Aumenta",
+   "estado": "activa",
+   "rubro": "Capacitaciones en tecnología para profesionales y equipos en Perú: inteligencia artificial aplicada al trabajo y agilidad (Scrum, Kanban)",
+   "productos": 2,
+   "corridas": 1,
+   "ultima": {
+    "corrida": "20260930-1923-ia-aplicada",
+    "marca_id": "aumenta",
+    "marca": "Aumenta",
+    "producto": "IA aplicada al trabajo",
+    "semana": "2026-10-05",
+    "creada": "2026-09-30 19:23",
+    "modelos": [
+     "mateo"
+    ],
+    "piezas": 4,
+    "ruta": "corridas/aumenta/20260930-1923-ia-aplicada/",
+    "miniatura": "img/p1_1.jpg"
+   },
+   "miniatura": ""
+  },
+  {
    "id": "isabella-importa",
    "nombre": "Isabella Importa",
    "estado": "activa",
@@ -31,16 +54,6 @@
   {
    "id": "agil-peru",
    "nombre": "Agil Peru",
-   "estado": "borrador",
-   "rubro": "",
-   "productos": 0,
-   "corridas": 0,
-   "ultima": null,
-   "miniatura": ""
-  },
-  {
-   "id": "aumenta",
-   "nombre": "Aumenta",
    "estado": "borrador",
    "rubro": "",
    "productos": 0,

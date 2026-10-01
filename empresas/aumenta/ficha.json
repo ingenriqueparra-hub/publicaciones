@@ -1,24 +1,48 @@
 {
  "nombre": "Aumenta",
  "pagina_facebook": "Aumenta",
- "estado": "borrador",
- "rubro": "",
- "publico": "",
- "problemas_del_publico": [],
- "tono": "",
+ "estado": "activa",
+ "tipo": "servicios",
+ "rubro": "Capacitaciones en tecnología para profesionales y equipos en Perú: inteligencia artificial aplicada al trabajo y agilidad (Scrum, Kanban)",
+ "publico": "Profesionales de 25 a 45 años y equipos de empresas en Perú que quieren usar la IA y los métodos ágiles en su trabajo diario, sin volverse expertos técnicos",
+ "problemas_del_publico": [
+  "Siente que la IA avanza rápido y se está quedando atrás",
+  "No sabe por dónde empezar a usar la IA en su trabajo",
+  "Su equipo trabaja con retrasos y desorden en los proyectos",
+  "Ya hizo cursos teóricos que no pudo aplicar en su trabajo"
+ ],
+ "tono": "Claro, práctico y cercano. Explica sin jerga técnica y con ejemplos del trabajo diario. Sin promesas de empleo, sueldos ni resultados garantizados",
  "tratamiento": "tú",
  "idioma": "español de Perú",
  "redes": [
   "facebook",
   "instagram"
  ],
- "llamada_a_la_accion": "",
+ "llamada_a_la_accion": "Escríbenos por WhatsApp para conocer las próximas fechas y el temario",
  "enlace": "",
- "modelo": "",
- "productos": [],
+ "modelo": "mateo",
+ "productos": [
+  {
+   "id": "ia-aplicada",
+   "nombre": "IA aplicada al trabajo",
+   "descripcion": "Capacitación práctica para usar herramientas de inteligencia artificial en tareas del día a día: redactar, resumir, analizar información y automatizar tareas repetitivas.",
+   "modelo": "mateo"
+  },
+  {
+   "id": "agilidad-equipos",
+   "nombre": "Agilidad para equipos (Scrum y Kanban)",
+   "descripcion": "Capacitación para que un equipo organice su trabajo con Scrum y Kanban: tablero visible, reuniones cortas y entregas frecuentes.",
+   "modelo": "sofia"
+  }
+ ],
  "testimonios": [],
  "voz_del_cliente": [],
- "hashtags_base": [],
+ "hashtags_base": [
+  "#Aumenta",
+  "#InteligenciaArtificial",
+  "#Agilidad",
+  "#CapacitacionPeru"
+ ],
  "declaracion_ia": "📸 Imagen creada con IA.",
  "frecuencia": {
   "posts_semana": 4,
@@ -32,7 +56,7 @@
    "19:30"
   ]
  },
- "notas": "Negocio de prueba (página de Facebook inactiva). Ficha por completar.",
+ "notas": "Negocio de prueba (página de Facebook inactiva). Dato del usuario: capacitaciones en temas de tecnología como IA y agilidad. SUPUESTOS a confirmar: público y edades, que se dirige también a equipos de empresas, venta por WhatsApp. Sin precios, fechas, modalidad, duración ni certificados hasta que se confirmen: el texto no puede afirmarlos.",
  "id": "aumenta",
- "_version": "2026-09-30T09:43"
+ "_version": "2026-09-30T19:04"
 }
