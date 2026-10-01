@@ -1,5 +1,19 @@
 [
  {
+  "corrida": "20260930-2119-agilidad-equipos",
+  "marca_id": "aumenta",
+  "marca": "Aumenta",
+  "producto": "Agilidad para equipos (Scrum y Kanban)",
+  "semana": "2026-10-12",
+  "creada": "2026-09-30 21:19",
+  "modelos": [
+   "sofia"
+  ],
+  "piezas": 4,
+  "ruta": "corridas/aumenta/20260930-2119-agilidad-equipos/",
+  "miniatura": "img/p1_1.jpg"
+ },
+ {
   "corrida": "20260930-2025-ia-aplicada",
   "marca_id": "aumenta",
   "marca": "Aumenta",

@@ -11,19 +11,19 @@
    "estado": "activa",
    "rubro": "Capacitaciones en tecnología para profesionales y equipos en Perú: inteligencia artificial aplicada al trabajo y agilidad (Scrum, Kanban)",
    "productos": 2,
-   "corridas": 3,
+   "corridas": 4,
    "ultima": {
-    "corrida": "20260930-2025-ia-aplicada",
+    "corrida": "20260930-2119-agilidad-equipos",
     "marca_id": "aumenta",
     "marca": "Aumenta",
-    "producto": "IA aplicada al trabajo",
-    "semana": "2026-10-05",
-    "creada": "2026-09-30 20:25",
+    "producto": "Agilidad para equipos (Scrum y Kanban)",
+    "semana": "2026-10-12",
+    "creada": "2026-09-30 21:19",
     "modelos": [
-     "mateo"
+     "sofia"
     ],
     "piezas": 4,
-    "ruta": "corridas/aumenta/20260930-2025-ia-aplicada/",
+    "ruta": "corridas/aumenta/20260930-2119-agilidad-equipos/",
     "miniatura": "img/p1_1.jpg"
    },
    "miniatura": ""

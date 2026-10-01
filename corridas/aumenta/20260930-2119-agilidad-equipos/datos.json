@@ -1,0 +1,242 @@
+{
+ "corrida": "20260930-2119-agilidad-equipos",
+ "marca": "Aumenta",
+ "marca_id": "aumenta",
+ "semana": "2026-10-12",
+ "creada": "2026-09-30 21:19",
+ "redes": [
+  "facebook",
+  "instagram"
+ ],
+ "modelos": [
+  {
+   "id": "sofia",
+   "desc": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+   "foto": "../../../modelos/sofia.jpg"
+  }
+ ],
+ "modelo": "Latina, 28 años, delgada, pelo negro ondulado largo (la modelo principal)",
+ "modelo_texto": "deepseek-v4-flash",
+ "modelo_imagen": "Qwen Image 2.1 (local)",
+ "producto": {
+  "nombre": "Agilidad para equipos (Scrum y Kanban)",
+  "descripcion": "Capacitación para que un equipo organice su trabajo con Scrum y Kanban: tablero visible, reuniones cortas y entregas frecuentes.",
+  "foto": null
+ },
+ "piezas": [
+  {
+   "id": "p1",
+   "fecha": "2026-10-12",
+   "dia": "lunes",
+   "hora": "12:30",
+   "formato": "carrusel",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p1_1.jpg",
+    "img/p1_2.jpg",
+    "img/p1_3.jpg",
+    "img/p1_4.jpg"
+   ],
+   "texto": "El desorden del equipo se nota antes de diciembre, no en diciembre.\n\nLos retrasos no aparecen el último día: se acumulan cuando nadie ve el trabajo en curso. Con Scrum y Kanban el equipo pone todo en un tablero visible, hace reuniones cortas y entrega por partes. Así queda claro qué está pendiente, qué está en curso y qué ya se entregó. Esa es la capacitación de Agilidad para equipos de Aumenta.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #Scrum #Kanban #TableroKanban #EquiposDeTrabajo #MetodologiasAgiles #ProductividadLaboral #Lima #GestionDeProyectos\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Revisar que sea cierto (no está en la ficha): último"
+   ],
+   "movimiento": "",
+   "formatos": [
+    "titular",
+    "beneficios",
+    "lifestyle",
+    "infografia"
+   ],
+   "consejo": {
+    "gran_idea": "El desorden del equipo se ve en un tablero antes de que se convierta en retraso.",
+    "objetivo": "educar",
+    "persona": "Jefe de proyecto de 38 años en Lima con un equipo de seis personas que acumula tareas sin fecha de entrega",
+    "objecion": "Su equipo trabaja con retrasos y desorden en los proyectos (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Habla del problema del prospecto y de él, no de la marca: el desorden y los retrasos del equipo.",
+      "autor": "Sabri Suby",
+      "titulo": "How To ACTUALLY Build a Funnel That Makes Millions",
+      "t": "3:44",
+      "url": "https://www.youtube.com/watch?v=bgrrqzMl5sw&t=224s"
+     },
+     {
+      "idea": "Enseña algo que se pueda aplicar aunque no compre hoy; el valor que das sostiene la atención.",
+      "autor": "Sabri Suby",
+      "titulo": "How To Convert More Customers Online (WITHOUT Spending Extra Money) #HEYSABRI",
+      "t": "0:02",
+      "url": "https://www.youtube.com/watch?v=zw-wST8rFr8&t=2s"
+     },
+     {
+      "idea": "Especialízate en un tema concreto, agilidad para equipos, en vez de hablar de todo un poco.",
+      "autor": "Romuald Fons",
+      "titulo": "Cómo saber si tu idea de negocio va a funcionar (en 30 minutos)",
+      "t": "16:44",
+      "url": "https://www.youtube.com/watch?v=oinXxaoQNG8&t=1004s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p2",
+   "fecha": "2026-10-14",
+   "dia": "miércoles",
+   "hora": "19:30",
+   "formato": "reel",
+   "pilar": "producto",
+   "estado": "generado",
+   "imagenes": [
+    "img/p2_1.jpg"
+   ],
+   "texto": "Tu equipo no necesita más teoría: necesita un tablero a la vista.\n\nEn la capacitación de Agilidad para equipos (Scrum y Kanban) se arma un tablero visible, se acortan las reuniones y se entrega por partes. Así ves lo que está en curso sin preguntar uno por uno. Si ya leíste sobre Scrum y no lograste aplicarlo con tu equipo, esto se practica con tu propio caso.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #ScrumPeru #KanbanPeru #EquiposAgiles #MetodosAgiles #GestionDeProyectos #TrabajoEnEquipo #LimaPeru\n\n📸 Imagen creada con IA.",
+   "avisos": [
+    "Texto con afirmaciones que no están en la ficha: «esto se practica con tu propio caso»",
+    "Falta el vídeo: la imagen es el primer fotograma; se anima aparte"
+   ],
+   "movimiento": "She presses one blank sticky note onto the board, steps back and looks at the whole wall while the camera tilts up slightly.",
+   "formatos": [
+    "creador_lowfi"
+   ],
+   "consejo": {
+    "gran_idea": "El desorden del equipo se ve en un tablero antes de que se convierta en retraso.",
+    "objetivo": "producto",
+    "persona": "Coordinadora de proyectos de 33 años que ya leyó sobre Scrum y no logra aplicarlo con su equipo",
+    "objecion": "Ya hizo cursos teóricos que no pudo aplicar en su trabajo (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Un beneficio grande y específico más intriga es lo que hace que alguien se detenga y siga mirando.",
+      "autor": "Sabri Suby",
+      "titulo": "Digital Marketing Isn't Hard, It's Misunderstood",
+      "t": "13:11",
+      "url": "https://www.youtube.com/watch?v=JEnO3a87RwQ&t=791s"
+     },
+     {
+      "idea": "Primero ayuda y explica lo que tienen que hacer; la oferta del servicio viene después.",
+      "autor": "Romuald Fons",
+      "titulo": "Facturamos mucho dinero pero nuestro marketing da pena - ESDR #40",
+      "t": "35:11",
+      "url": "https://www.youtube.com/watch?v=gNj3CQ1Xxeo&t=2111s"
+     },
+     {
+      "idea": "Que se note a quién va dirigido: si el prospecto no se siente representado, no se queda.",
+      "autor": "Romuald Fons",
+      "titulo": "Facturo 250.000€ y no entiendo mi propio negocio - ESDR #36",
+      "t": "44:55",
+      "url": "https://www.youtube.com/watch?v=MYNJ6QPBWeE&t=2695s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p3",
+   "fecha": "2026-10-16",
+   "dia": "viernes",
+   "hora": "12:30",
+   "formato": "foto",
+   "pilar": "objecion",
+   "estado": "generado",
+   "imagenes": [
+    "img/p3_1.jpg"
+   ],
+   "texto": "¿Cuántos cursos de agilidad terminaron guardados en un cajón?\n\nAprender Scrum y Kanban en una pizarra es fácil; usarlo con tu equipo es otra cosa. En la capacitación de Agilidad para equipos se trabaja sobre el trabajo real: el tablero, las reuniones cortas y las entregas frecuentes del propio equipo. Si ya hiciste un curso teórico, esto es lo que faltaba.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #CapacitacionEmpresas #ScrumMasterPeru #FormacionPractica #EquiposDeAltoRendimiento #MetodologiasAgiles #Lima\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "titular"
+   ],
+   "consejo": {
+    "gran_idea": "Un curso solo cambia al equipo cuando se aplica sobre su propio trabajo.",
+    "objetivo": "objecion",
+    "persona": "Profesional de 40 años que ya hizo un curso de Scrum y no pudo usarlo con su equipo",
+    "objecion": "Ya hizo cursos teóricos que no pudo aplicar en su trabajo (supuesta)",
+    "conciencia": "consciente de la solución",
+    "criterio": [
+     {
+      "idea": "Crea contenido que responda a la objeción exacta que frena la compra: el curso teórico que no se aplica.",
+      "autor": "Romuald Fons",
+      "titulo": "Un SEO me ha ‘robado’ mi marca en Google - ESDR #47",
+      "t": "6:39",
+      "url": "https://www.youtube.com/watch?v=bNFaIfjK8-o&t=399s"
+     },
+     {
+      "idea": "Copy específico, que se meta debajo de las uñas del mercado; lo genérico no funciona.",
+      "autor": "Sabri Suby",
+      "titulo": "The Secret To Writing Facebook Ad Copy That Gets Under The Fingernails Of Your Market",
+      "t": "9:30",
+      "url": "https://www.youtube.com/watch?v=h78W9wSnAQg&t=570s"
+     },
+     {
+      "idea": "Regala el conocimiento y vende la implementación: el valor está en aplicarlo.",
+      "autor": "Sabri Suby",
+      "titulo": "6 Dark Marketing Tactics That Force You To Buy",
+      "t": "14:14",
+      "url": "https://www.youtube.com/watch?v=E3KFx1a2pNI&t=854s"
+     }
+    ]
+   }
+  },
+  {
+   "id": "p4",
+   "fecha": "2026-10-17",
+   "dia": "sábado",
+   "hora": "19:30",
+   "formato": "foto",
+   "pilar": "educar",
+   "estado": "generado",
+   "imagenes": [
+    "img/p4_1.jpg"
+   ],
+   "texto": "¿Llegas a diciembre con la lista de pendientes sin cerrar?\n\nEl desorden se nota más al cerrar el año: los pendientes se acumulan y nadie tiene claro qué está en curso. En la capacitación de agilidad para equipos se trabaja con un tablero visible, reuniones cortas y entregas frecuentes. Empieza por lo que tu equipo ya tiene pendiente y ponlo en un solo lugar.\n\nEscríbenos por WhatsApp para conocer las próximas fechas y el temario.\n\n#Aumenta #InteligenciaArtificial #Agilidad #CapacitacionPeru #CierreDeAnio #PlanificacionDeEquipos #Kanban #ScrumPeru #ProductividadPeru #Gerencias #Lima\n\n📸 Imagen creada con IA.",
+   "avisos": [],
+   "movimiento": "",
+   "formatos": [
+    "infografia"
+   ],
+   "consejo": {
+    "gran_idea": "Un curso solo cambia al equipo cuando se aplica sobre su propio trabajo.",
+    "objetivo": "educar",
+    "persona": "Líder de área de 35 años que llega al cierre de año con pendientes acumulados",
+    "objecion": "Su equipo trabaja con retrasos y desorden en los proyectos (supuesta)",
+    "conciencia": "consciente del problema",
+    "criterio": [
+     {
+      "idea": "Un contenido de alto valor que resuelve un problema inmediato y concreto, en pasos cortos.",
+      "autor": "Sabri Suby",
+      "titulo": "If You Only Watch One Marketing Video, Make It This",
+      "t": "26:00",
+      "url": "https://www.youtube.com/watch?v=HF9k-BhCrF0&t=1560s"
+     },
+     {
+      "idea": "Crea contenido que resuelva los problemas del buyer persona y atraiga a quien puede comprar.",
+      "autor": "Romuald Fons",
+      "titulo": "¿3 ventas al día? Estás haciendo TODO MAL",
+      "t": "6:31",
+      "url": "https://www.youtube.com/watch?v=giqKdgls_9U&t=391s"
+     },
+     {
+      "idea": "Responde a lo que la gente busca y cierra con una llamada a la acción clara.",
+      "autor": "Romuald Fons",
+      "titulo": "Cómo quitar clientes a tu competencia con SEO",
+      "t": "29:32",
+      "url": "https://www.youtube.com/watch?v=8REjYifReQI&t=1772s"
+     }
+    ]
+   }
+  }
+ ],
+ "consejo": {
+  "autores": [
+   "Romuald Fons",
+   "Sabri Suby"
+  ],
+  "fragmentos": 94,
+  "grandes_ideas": [
+   "El desorden del equipo se ve en un tablero antes de que se convierta en retraso.",
+   "Un curso solo cambia al equipo cuando se aplica sobre su propio trabajo."
+  ]
+ }
+}
